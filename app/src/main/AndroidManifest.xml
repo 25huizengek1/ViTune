@@ -24,6 +24,8 @@
         android:maxSdkVersion="32" />
     <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
 
+    <uses-permission android:name="com.nothing.ketchum.permission.ENABLE" />
+
     <queries>
         <intent>
             <action android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL" />
@@ -187,6 +189,10 @@
         <meta-data
             android:name="com.google.android.gms.car.notification.SmallIcon"
             android:resource="@drawable/app_icon" />
+
+        <meta-data
+            android:name="NothingKey"
+            android:value="test" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

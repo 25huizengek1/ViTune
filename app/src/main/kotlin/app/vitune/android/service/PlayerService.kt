@@ -76,6 +76,7 @@ import app.vitune.android.preferences.PlayerPreferences
 import app.vitune.android.transaction
 import app.vitune.android.utils.ActionReceiver
 import app.vitune.android.utils.ConditionalCacheDataSourceFactory
+import app.vitune.android.utils.GlyphInterface
 import app.vitune.android.utils.InvincibleService
 import app.vitune.android.utils.TimerJob
 import app.vitune.android.utils.YouTubeRadio
@@ -87,6 +88,7 @@ import app.vitune.android.utils.forceSeekToNext
 import app.vitune.android.utils.forceSeekToPrevious
 import app.vitune.android.utils.intent
 import app.vitune.android.utils.mediaItems
+import app.vitune.android.utils.progress
 import app.vitune.android.utils.setPlaybackPitch
 import app.vitune.android.utils.shouldBePlaying
 import app.vitune.android.utils.songBundle
@@ -111,6 +113,7 @@ import app.vitune.providers.innertube.utils.from
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -120,12 +123,14 @@ import kotlinx.coroutines.flow.cancellable
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.debounce
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flatMapMerge
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.flow.takeWhile
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
@@ -133,7 +138,7 @@ import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
 import kotlin.math.roundToInt
-import kotlin.system.exitProcess
+import kotlin.time.Duration.Companion.milliseconds
 import android.os.Binder as AndroidBinder
 
 const val LOCAL_KEY_PREFIX = "local:"
@@ -222,6 +227,8 @@ class PlayerService : InvincibleService(), Player.Listener, PlaybackStatsListene
             initialValue = false
         )
 
+    private val glyphInterface by lazy { GlyphInterface(applicationContext) }
+
     override fun onBind(intent: Intent?): AndroidBinder {
         super.onBind(intent)
         return binder
@@ -230,6 +237,8 @@ class PlayerService : InvincibleService(), Player.Listener, PlaybackStatsListene
     @Suppress("CyclomaticComplexMethod")
     override fun onCreate() {
         super.onCreate()
+
+        glyphInterface.tryInit()
 
         bitmapProvider = BitmapProvider(
             getBitmapSize = {
@@ -404,6 +413,7 @@ class PlayerService : InvincibleService(), Player.Listener, PlaybackStatsListene
             preferenceUpdaterJob?.cancel()
 
             coroutineScope.cancel()
+            glyphInterface.close()
         }
 
         super.onDestroy()
@@ -971,6 +981,7 @@ class PlayerService : InvincibleService(), Player.Listener, PlaybackStatsListene
 
         fun setBitmapListener(listener: ((Bitmap?) -> Unit)?) = bitmapProvider.setListener(listener)
 
+        @kotlin.OptIn(FlowPreview::class)
         fun startSleepTimer(delayMillis: Long) {
             timerJob?.cancel()
 
@@ -985,8 +996,22 @@ class PlayerService : InvincibleService(), Player.Listener, PlaybackStatsListene
                         .setSmallIcon(R.drawable.app_icon)
                 }
 
-                stopSelf()
-                exitProcess(0)
+                handler.post {
+                    player.pause()
+                    player.stop()
+
+                    glyphInterface.glyph {
+                        turnOff()
+                    }
+                }
+            }.also { job ->
+                glyphInterface.progress(
+                    job
+                        .millisLeft
+                        .takeWhile { it != null }
+                        .debounce(500.milliseconds)
+                        .map { ((it ?: 0L) / delayMillis.toFloat() * 100).toInt() }
+                )
             }
         }
 

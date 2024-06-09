@@ -117,6 +117,8 @@ dependencies {
     implementation(projects.compose.routing)
     implementation(projects.compose.reordering)
 
+    implementation(fileTree(projectDir.resolve("vendor")))
+
     implementation(platform(libs.compose.bom))
     implementation(libs.compose.activity)
     implementation(libs.compose.foundation)

@@ -29,6 +29,7 @@ core_ktx = { module = "androidx.core:core-ktx", version = "1.13.1" }
 kotlin_coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version = "1.8.1" }
 kotlin_datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version = "0.6.0" }
 kotlin_immutable = { module = "org.jetbrains.kotlinx:kotlinx-collections-immutable", version = "0.3.7" }
+kotlin_serialization_json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version = "1.7.1" }
 
 compose_bom = { module = "androidx.compose:compose-bom", version = "2024.06.00" }
 compose_animation = { module = "androidx.compose.animation:animation" }
@@ -77,3 +78,5 @@ desugaring = { module = "com.android.tools:desugar_jdk_libs", version = "2.0.4" 
 
 detekt_compose = { module = "io.nlopez.compose.rules:detekt", version = "0.4.5" }
 detekt_formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
+
+agp = { module = "com.android.tools.build:gradle", version.ref = "agp" }

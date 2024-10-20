@@ -236,6 +236,8 @@
     <string name="lyrics_keep_screen_awake_description">歌词显示时保持屏幕唤醒</string>
     <string name="lyrics_show_system_bars">显示系统栏（歌词）</string>
     <string name="lyrics_show_system_bars_description">关闭此选项可启用系统级全屏</string>
+    <string name="pip">PIP</string>
+    <string name="pip_description">切换到后台时自动切换到画中画模式</string>
 
     <string name="cache">缓存</string>
     <string name="cache_description">当缓存空间耗尽时，最久未被访问的资源将被清除</string>
@@ -244,6 +246,8 @@
     <string name="format_cache_space_used">%1$s 已使用</string>
     <string name="format_cache_space_used_percentage">%1$s 已使用 (%2$s%%)</string>
     <string name="song_cache">歌曲缓存</string>
+    <string name="pause_song_cache">停止缓存</string>
+    <string name="pause_song_cache_description">临时停止添加新的歌曲到缓存</string>
     <string name="database">数据库</string>
 
     <string name="cleanup">清理</string>
@@ -273,6 +277,8 @@
     <string name="format_clear_search_history_amount">删除 %1$s 个搜索查询</string>
     <string name="empty_history">历史记录为空</string>
     <string name="built_in_playlists">内置播放列表</string>
+    <string name="auto_sync_playlists">自动同步播放列表</string>
+    <string name="auto_sync_playlists_description">打开时自动同步保存的YouTube播放列表</string>
     <string name="top_list_length">热门列表长度</string>
     <string name="top_list_length_description">限制 “我的热门 x” 播放列表的长度</string>
 
@@ -292,6 +298,8 @@
     <string name="troubleshooting_warning">警告：当音频播放失败时，请最后尝试使用这些按钮</string>
     <string name="reload_app_internals">重新加载应用内部</string>
     <string name="kill_app">终止应用</string>
+    <string name="show_logs">查看故障日志</string>
+    <string name="logs">日志</string>
     <string name="show_troubleshoot_section">显示故障排除部分</string>
 
     <string name="persistent_queue">持久队列</string>
@@ -312,15 +320,18 @@
     <string name="loudness_normalization_description">将音量调整到固定水平</string>
     <string name="loudness_base_gain">响度基础增益</string>
     <string name="loudness_base_gain_description">响度标准化的目标增益</string>
-    <string name="loudness_normalization_extreme">检测到极端响度值 (%s)，将关闭此歌曲的标准化</string>
+    <string name="loudness_normalization_extreme">检测到极端响度值 (%s)，将关闭此歌曲的响度标准化</string>
     <string name="bass_boost">低音增强</string>
-    <string name="bass_boost_description">增强低频以改善听觉体验</string>
+    <string name="bass_boost_description">增强低频以提升听觉体验</string>
     <string name="bass_boost_level">低音增强级别</string>
     <string name="bass_boost_level_description">增强低频的级别 (0–1000)，使用需谨慎！</string>
+    <string name="sponsor_block">屏蔽赞助商</string>
+    <string name="sponsor_block_description">使用 Sponsorblock API 的数据来屏蔽赞助/无关内容</string>
+    <string name="reverb">混响</string>
     <string name="audio_focus">音频焦点</string>
-    <string name="audio_focus_description">播放器是否应请求系统级的音频（媒体）焦点</string>
-    
-    <string name="equalizer_description">与系统均衡器交互</string>
+    <string name="audio_focus_description">播放器是否应请求系统范围的音频（媒体）焦点</string>
+    <string name="equalizer_description">与系统均衡器进行交互</string>
+
     <string name="filter_placeholder">过滤器…</string>
 
     <string name="last_interaction">最近播放</string>
@@ -371,6 +382,8 @@
     <string name="swipe_to_hide_song_description">当你向左滑动一首歌曲时，它将从数据库和缓存中移除</string>
     <string name="swipe_to_hide_song_confirm">确认滑动隐藏歌曲</string>
     <string name="swipe_to_hide_song_confirm_description">在执行隐藏操作前，需要先确认</string>
+    <string name="hide_explicit">隐藏带有脏话的歌曲</string>
+    <string name="hide_explicit_description">在整个应用程序中隐藏所有带有脏话的歌曲。当启用此设置时，播放器还会跳过播放时遇到的带有脏话的歌曲。</string>
 
     <string name="version">版本</string>
     <string name="check_new_version">检查更新</string>
@@ -393,22 +406,25 @@
     <string name="skip_on_error_description">当发生错误时跳过当前歌曲</string>
     <string name="skip_on_error_notification">由于错误，已跳过 %s</string>
     <string name="skip_on_error_notification_unknown_song">由于错误，已跳过当前歌曲</string>
-    <string name="reverb_small_room">Small room</string>
-    <string name="reverb_medium_room">Medium room</string>
-    <string name="reverb_large_room">Large room</string>
-    <string name="reverb_medium_hall">Medium hall</string>
-    <string name="reverb_large_hall">Large hall</string>
-    <string name="reverb_plate">Plate</string>
+    <string name="reverb_small_room">小房间</string>
+    <string name="reverb_medium_room">中等房间</string>
+    <string name="reverb_large_room">大房间</string>
+    <string name="reverb_medium_hall">中等大厅</string>
+    <string name="reverb_large_hall">大厅</string>
+    <string name="reverb_plate">板式混响</string>
 
     <plurals name="format_reset_blacklist_description">
+    	<item quantity="one">从黑名单中移除 %1$s 首歌曲</item>
         <item quantity="other">从黑名单中移除所有 %1$s 首歌曲</item>
     </plurals>
 
     <plurals name="format_reset_quick_picks_amount">
+    	<item quantity="one">删除 %1$s 次播放事件</item>
         <item quantity="other">删除 %1$s 次播放事件</item>
     </plurals>
 
     <plurals name="song_count_plural">
+    	<item quantity="one">%1$d 首歌曲</item>
         <item quantity="other">%1$d 首歌曲</item>
     </plurals>
 </resources>

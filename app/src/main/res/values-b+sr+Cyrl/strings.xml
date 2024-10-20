@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="format_minutes">%1$dm</string>
+    <string name="format_hours">%1$ds</string>
+    <string name="format_days">%1$ddан</string>
+    <string name="format_time_left">%1$s преостало</string>
+    <string name="format_db">%1$s dB</string>
+    <string name="format_kbps">%1$s kbps</string>
+    <string name="format_ms">%1$s ms</string>
+    <string name="format_px">%1$spx</string>
+
+    <string name="format_go_to_artist">Више од %1$s</string>
+    <string name="format_top_playlist">Топ %1$s</string>
+    <string name="format_my_top_playlist">Мој топ %1$s</string>
+    <string name="format_view_top_of_header">Прикажи топ %1$s од …</string>
+    <string name="format_multiplier">%1$sx</string>
+
+    <string name="past_24_hours">Последњих 24 сата</string>
+    <string name="past_week">Прошла недеља</string>
+    <string name="past_month">Прошли месец</string>
+    <string name="past_year">Прошла година</string>
+    <string name="all_time">Све време</string>
+
+    <string name="songs">Песме</string>
+    <string name="playlists">Плејлисте</string>
+    <string name="albums">Албуми</string>
+    <string name="artists">Извођачи</string>
+    <string name="singles">Синглови</string>
+
+    <string name="favorites">Омиљено</string>
+    <string name="offline">Ван мреже</string>
+    <string name="history">Историја</string>
+    <string name="overview">Преглед</string>
+    <string name="library">Књижница</string>
+    <string name="discover">Откриј</string>
+    <string name="local">Локално</string>
+    <string name="quick_picks">Брзи избор</string>
+    <string name="mood">Расположење</string>
+    <string name="online">На мрежи</string>
+    <string name="videos">Видео снимци</string>
+    <string name="about">О апликацији</string>
+    <string name="appearance">Изглед</string>
+    <string name="colors">Боје</string>
+    <string name="shapes">Облици</string>
+
+    <string name="skip_back">Прескочи уназад</string>
+    <string name="skip_forward">Прескочи напред</string>
+    <string name="play">Пусти</string>
+    <string name="pause">Пауза</string>
+    <string name="like">Свиђа ми се</string>
+    <string name="shuffle">Измешај</string>
+    <string name="sync">Синхронизуј</string>
+    <string name="start_radio">Покрени радио</string>
+    <string name="play_next">Пусти следећу</string>
+    <string name="enqueue">Додај у ред</string>
+
+    <string name="sleep_timer">Тајмер за спавање</string>
+    <string name="sleep_timer_ended">Тајмер за спавање је истекао</string>
+    <string name="sleep_timer_until_song_end">Док песма не заврши</string>
+    <string name="stop_sleep_timer_prompt">Желите ли да зауставите тајмер за спавање?</string>
+    <string name="equalizer">Еквилајзер</string>
+    <string name="set_sleep_timer">Подеси тајмер за спавање</string>
+
+    <string name="cancel">Откажи</string>
+    <string name="done">Завршено</string>
+    <string name="confirm">Потврди</string>
+    <string name="no">Не</string>
+    <string name="stop">Заустави</string>
+    <string name="set">Подеси</string>
+    <string name="hide">Сакриј</string>
+    <string name="rename">Преименуј</string>
+    <string name="delete">Обриши</string>
+    <string name="reset">Ресетуј</string>
+    <string name="clear">Почисти</string>
+    <string name="view_all">Погледај све</string>
+
+    <string name="on_label">укључено</string>
+    <string name="off_label">искључено</string>
+    <string name="off_text">Искључено</string>
+    <string name="unknown">Непознато</string>
+    <string name="now_playing">Тренутно се репродукује</string>
+
+    <string name="enter_playlist_name_prompt">Унесите име плејлисте</string>
+    <string name="new_playlist">Нова плејлиста</string>
+    <string name="add_to_playlist">Додај у плејлисту</string>
+
+    <string name="go_to_album">Иди на албум</string>
+
+    <string name="watch_on_youtube">Гледај на YouTube-у</string>
+    <string name="open_in_youtube_music">Отвори у YouTube Music-у</string>
+    <string name="watch_playlist_on_youtube">Гледај плејлисту на YouTube-у</string>
+    <string name="youtube_music_not_installed">YouTube Music није инсталиран на вашем уређају!</string>
+
+    <string name="remove_from_queue">Уклони из реда</string>
+    <string name="remove_from_playlist">Уклони из плејлисте</string>
+
+    <string name="hide_from_quick_picks">Сакриј из "Брзи избор"</string>
+    <string name="confirm_hide_song">Заиста желите да сакријете ову песму? Време репродукције и кеш ће бити обрисани.\nОва радња је неповратна.</string>
+    <string name="confirm_delete_playlist">Да ли стварно желите да обришете ову плејлисту?</string>
+    <string name="confirm_delete_piped_session">Да ли заиста желите да обришете ову Piped сесију?</string>
+
+    <string name="other_versions">Друге верзије</string>
+    <string name="no_alternative_version">Овај албум нема алтернативну верзију</string>
+
+    <string name="from_wikipedia">Из Википедије</string>
+    <string name="wikipedia_cc_by_sa">Из Википедије под Creative Commons Attribution CC-BY-SA 3.0 лиценцом</string>
+    <string name="quote_open">“</string>
+    <string name="quote_close">„</string>
+
+    <string name="moods_and_genres">Расположења и жанрови</string>
+    <string name="new_released_albums">Нови објављени албуми</string>
+    <string name="more">Више</string>
+
+    <string name="artist_has_no_albums">Овај уметник још није објавио албум</string>
+    <string name="artist_has_no_singles">Овај уметник још није објавио сингл</string>
+
+    <string name="error_message">Дошло је до грешке</string>
+    <string name="error_local_music_deleted">Ова локална музичка датотека више не постоји</string>
+    <string name="error_network">Дошло је до мрежне грешке</string>
+    <string name="error_unplayable">Није пронађен доступан аудио формат</string>
+    <string name="error_source_deleted">Оригинални видео извор ове песме је обрисан</string>
+    <string name="error_server_restrictions">Ова песма се не може репродуковати због ограничења сервера</string>
+    <string name="error_id_mismatch">Враћени видео ID се не подудара са траженим</string>
+    <string name="error_unknown_playback">Дошло је до непознате грешке приликом репродукције</string>
+    <string name="error_piped_link">Дошло је до непознате грешке приликом повезивања са вашим Piped налогом. Покушајте поново.</string>
+    <string name="error_piped_instances_unavailable">Листа Piped инстанци тренутно није доступна</string>
+    <string name="error_bassboost_init">Дошло је до грешке приликом иницијализације Bass Boost-а. Вероватно га ваш уређај не подржава. Покушајте да промените ниво појачања баса или покушајте поново.</string>
+    <string name="error_pre_cache">Дошло је до непознате грешке приликом пред-кеширања. Покушајте поново.</string>
+    <string name="error_url">Није могуће отворити URL %1$s</string>
+    <string name="media_permission_declined">Дозвола одбијена, молимо да омогућите медијске дозволе у подешавањима уређаја.</string>
+    <string name="open_settings">Отворите подешавања</string>
+    <string name="no_items_found">Нема пронађених ставки</string>
+    <string name="no_search_results">Нема резултата претраге. Молимо покушајте са другачијим упитом или категоријом</string>
+
+    <string name="no_browser_installed">Није пронађена апликација за прегледање интернета</string>
+    <string name="no_equalizer_installed">Није пронађена апликација за подешавање еквилајзера</string>
+    <string name="no_file_chooser_installed">Није пронађена апликација за креирање докумената</string>
+    <string name="no_battery_optimization_settings_found">Није пронађено подешавање за оптимизацију батерије, молимо да ручно додате ViTune на белу листу</string>
+
+    <string name="related_albums">Повезани албуми</string>
+    <string name="similar_artists">Слични уметници</string>
+    <string name="recommended_playlists">Плејлисте које би вам се могле свидети</string>
+    <string name="format_subscribers">%s претплатника</string>
+
+    <string name="enter_lyrics">Унесите текст песме</string>
+    <string name="no_lyrics_found">Није пронађен текст песме</string>
+    <string name="choose_lyric_track">Изаберите песму са текстом</string>
+    <string name="synchronized_lyrics_not_available">Синхронизовани текст није доступан за ову песму</string>
+    <string name="lyrics_not_available">Текст песме није доступан</string>
+    <string name="invalid_synchronized_lyrics">Неважећи синхронизовани текст, освежите или уредите текст и покушајте поново</string>
+    <string name="show_unsynchronized_lyrics">Прикажи несинхронизовани текст</string>
+    <string name="show_synchronized_lyrics">Прикажи синхронизовани текст</string>
+    <string name="provided_lyrics_by">Текст песме достављен од lrclib.net &amp; kugou.com</string>
+    <string name="edit_lyrics">Уреди текст песме</string>
+    <string name="search_lyrics_online">Претражи текст песме на мрежи</string>
+    <string name="refetch_lyrics">Поново преузми текст песме</string>
+    <string name="pick_from_lrclib">Изаберите текст са lrclib.net</string>
+    <string name="set_lyrics_start_offset">Подеси старт офсет</string>
+    <string name="set_lyrics_start_offset_description">Офсетује синхронизовани текст песме у односу на тренутно време репродукције</string>
+
+    <string name="playback_speed">Брзина репродукције</string>
+    <string name="playback_pitch">Тон</string>
+    <string name="playback_settings">Брзина &amp; тон</string>
+    <string name="minimum_speed_value">Зашто бисте ово радили?!</string>
+    <string name="volume_boost">Појачање звука</string>
+    <string name="queue_loop">Петља</string>
+    <string name="add_queue_to_playlist">Додај ред у плејлисту</string>
+
+    <string name="id">id</string>
+    <string name="itag">Itag</string>
+    <string name="bitrate">Битрејт</string>
+    <string name="size">Величина</string>
+    <string name="cached">Кеширано</string>
+    <string name="loudness">Јачина звука</string>
+
+    <string name="view_album">Погледај албум</string>
+    <string name="view_playlist">Погледај плејлисту</string>
+
+    <string name="search_placeholder">Унесите име</string>
+    <string name="format_version_credits">v%1$s од Huizengek &amp; vfsfitvnm</string>
+    <string name="social">Друштвено</string>
+    <string name="contact">Контакт</string>
+    <string name="github">GitHub</string>
+    <string name="view_source">Погледај изворни код</string>
+    <string name="report_bug">Пријави грешку</string>
+    <string name="report_bug_description">Ако вам је потребна помоћ око грешке, можете пријавити проблем на GitHub-у (кликните да се преусмерите)</string>
+    <string name="request_feature">Затражи функцију или предложи идеју</string>
+    <string name="redirect_github">Бићете преусмерени на GitHub</string>
+
+    <string name="color_source">Извор акцентне боје</string>
+    <string name="color_source_default">Подразумевано</string>
+    <string name="color_source_dynamic">Динамично</string>
+    <string name="color_source_material_you">Material You</string>
+
+    <string name="darkness">Тама</string>
+    <string name="darkness_normal">Нормално</string>
+    <string name="darkness_pureblack">Чиста црна</string>
+    <string name="darkness_amoled">AMOLED</string>
+
+    <string name="color_mode">Мод</string>
+    <string name="color_mode_light">Светло</string>
+    <string name="color_mode_dark">Тамно</string>
+    <string name="color_mode_system">Систем</string>
+
+    <string name="thumbnail_roundness">Заобљеност сличица</string>
+    <string name="none">Ништа</string>
+    <string name="thumbnail_roundness_light">Светло</string>
+    <string name="thumbnail_roundness_medium">Средње</string>
+    <string name="thumbnail_roundness_heavy">Јако</string>
+    <string name="thumbnail_roundness_heavier">Још јаче</string>
+    <string name="thumbnail_roundness_heaviest">Најјаче</string>
+
+    <string name="text">Текст</string>
+    <string name="font">Фонт</string>
+    <string name="use_system_font">Користи системски фонт</string>
+    <string name="use_system_font_description">Користите фонт који је примењен на систему</string>
+    <string name="apply_font_padding">Примени размак око фонта</string>
+    <string name="apply_font_padding_description">Додајте размак око текста</string>
+    <string name="language">Језик</string>
+
+    <string name="lockscreen">Закључани екран</string>
+    <string name="show_song_cover">Прикажи омот песме</string>
+    <string name="show_song_cover_description">Користи омот песме као позадину на закључаном екрану</string>
+
+    <string name="player">Плејер</string>
+    <string name="previous_button_while_collapsed">Претходно дугме док је минимизирано</string>
+    <string name="previous_button_while_collapsed_description">Приказује дугме за претходну песму док је плејер минимизиран</string>
+    <string name="swipe_horizontally_to_close">Превуци хоризонтално за затварање</string>
+    <string name="swipe_horizontally_to_close_description">Затвара плејер када превучете лево/десно по минимизираном плејеру. Корисно за кориснике са Android режимом за коришћење једном руком.</string>
+    <string name="show_like_button">Прикажи дугме за свиђање</string>
+    <string name="show_like_button_description">Прикажи дугме за свиђање директно у плејеру</string>
+    <string name="swipe_to_remove_item">Превуци да уклониш ставку</string>
+    <string name="swipe_to_remove_item_description">Превуците лево да бисте уклонили ставку из реда чекања</string>
+    <string name="lyrics_keep_screen_awake">Задржи екран укључен (текст песме)</string>
+    <string name="lyrics_keep_screen_awake_description">Задржава екран укључен док је приказан текст песме</string>
+    <string name="lyrics_show_system_bars">Прикажи системске траке (текст песме)</string>
+    <string name="lyrics_show_system_bars_description">Искључивање ове опције омогућава приказ на целом екрану</string>
+    <string name="pip">PIP</string>
+    <string name="pip_description">Аутоматски прелази у режим Слика-у-Слици када апликација пређе у позадину</string>
+
+    <string name="cache">Кеш</string>
+    <string name="cache_description">Када се кеш попуни, ресурси који најдуже нису коришћени биће обрисани</string>
+    <string name="image_cache">Кеш слика</string>
+    <string name="max_size">Максимална величина</string>
+    <string name="format_cache_space_used">%1$s коришћено</string>
+    <string name="format_cache_space_used_percentage">%1$s коришћено (%2$s%%)</string>
+    <string name="song_cache">Кеш песама</string>
+    <string name="database">База података</string>
+
+    <string name="cleanup">Чишћење</string>
+    <string name="pause_playback_history">Паузирај историју репродукције</string>
+    <string name="pause_playback_history_description">Зауставља праћење репродукција за брзи избор</string>
+    <string name="pause_playback_history_warning">Напомена: ово неће утицати на кеширање ван мреже!</string>
+    <string name="reset_quick_picks">Ресетуј брзе изборе</string>
+    <string name="quick_picks_empty">Брзи избор је обрисан</string>
+    <string name="pause_playback_time">Паузирај време репродукције</string>
+    <string name="format_pause_playback_time_description">Зауставља бележење времена репродукције. Ово паузира статистике у плејлисти "Мој топ %1$s"!</string>
+
+    <string name="backup">Бекап</string>
+    <string name="backup_description">Лични преференције (нпр. мод теме) и кеш су искључени.</string>
+    <string name="backup_action_description">Извези базу података на екстерну меморију</string>
+    <string name="restore">Врати</string>
+    <string name="restore_warning">Постојећи подаци ће бити преписани.\nViTune ће се аутоматски затворити након враћања базе података.</string>
+    <string name="restore_description">Увези базу података са екстерне меморије</string>
+
+    <string name="other">Остало</string>
+    <string name="android_auto">Android Auto</string>
+    <string name="android_auto_description">Омогући подршку за Android Auto</string>
+    <string name="android_auto_warning">Запамтите да омогућите "Непознати извори" у развојним подешавањима Android Auto.</string>
+    <string name="search_history">Историја претраге</string>
+    <string name="pause_search_history">Паузирај историју претраге</string>
+    <string name="pause_search_history_description">Не бележи нове упите за претрагу нити приказуј историју</string>
+    <string name="clear_search_history">Обриши историју претраге</string>
+    <string name="format_clear_search_history_amount">Обриши %1$s упита за претрагу</string>
+    <string name="empty_history">Историја је празна</string>
+    <string name="built_in_playlists">Уграђене плејлисте</string>
+    <string name="auto_sync_playlists">Аутоматска синхронизација плејлисте</string>
+    <string name="auto_sync_playlists_description">Аутоматски синхронизује сачуване плејлисте са YouTube-ом када их отворите</string>
+    <string name="top_list_length">Дужина топ листе</string>
+    <string name="top_list_length_description">Ограничава дужину плејлисте "Мој топ x"</string>
+
+    <string name="service_lifetime">Време трајања сервиса</string>
+    <string name="service_lifetime_warning">Ако су примењене оптимизације батерије, обавештење о репродукцији може изненада нестати када је паузирано.</string>
+    <string name="service_lifetime_warning_android_12">Од Android-а 12, онемогућавање оптимизација батерије је потребно да би опција "неуништиви сервис" била доступна.</string>
+    <string name="ignore_battery_optimizations">Игнориши оптимизације батерије</string>
+    <string name="ignoring_battery_optimizations">Ограничење је већ уклоњено</string>
+    <string name="ignore_battery_optimizations_action">Онемогући ограничења у позадини</string>
+    <string name="invincible_service">Неуништиви сервис</string>
+    <string name="invincible_service_description">Треба да настави репродукцију 99.99% времена, у случају да искључивање оптимизација батерије није довољно</string>
+
+    <string name="need_help">Треба вам помоћ?</string>
+    <string name="need_help_description">Већину времена, није кривица програмера (чак ни када укључите неуништиви сервис) што апликација престане да ради исправно у позадини. Проверите да ли произвођач вашег уређаја убија ваше апликације (кликните за преусмерење)</string>
+    <string name="service_lifetime_report_issue">Ако стварно мислите да нешто није у реду са самом апликацијом, идите на картицу О апликацији</string>
+    <string name="troubleshooting">Решавање проблема</string>
+    <string name="troubleshooting_warning">Упозорење: користите ове дугмиће као последње решење када репродукција звука не успе</string>
+    <string name="reload_app_internals">Поново учитај интерне функције апликације</string>
+    <string name="kill_app">Затвори апликацију</string>
+    <string name="show_troubleshoot_section">Прикажи секцију за решавање проблема</string>
+
+    <string name="persistent_queue">Упорни ред чекања</string>
+    <string name="persistent_queue_description">Сачувај и врати песме које се репродукују</string>
+    <string name="resume_playback">Настави репродукцију</string>
+    <string name="resume_playback_description">Када је жични или Bluetooth уређај повезан</string>
+    <string name="stop_when_closed">Заустави када је затворено</string>
+    <string name="stop_when_closed_description">Када затворите апликацију, музика престаје да свира</string>
+
+    <string name="audio">Аудио</string>
+    <string name="skip_silence">Прескочи тишину</string>
+    <string name="skip_silence_description">Прескочи тихе делове током репродукције</string>
+    <string name="minimum_silence_length">Минимална дужина тишине</string>
+    <string name="minimum_silence_length_description">Минимално време колико звук мора да буде тих да би био прескочен</string>
+    <string name="minimum_silence_length_warning">Плејер мора бити поново покренут како би промене биле ефикасне!</string>
+    <string name="restart_service">Поново покрени сервис</string>
+    <string name="loudness_normalization">Нормализација јачине звука</string>
+    <string name="loudness_normalization_description">Подешава јачину звука на фиксни ниво</string>
+    <string name="loudness_base_gain">Основно појачање звука</string>
+    <string name="loudness_base_gain_description">Циљно појачање за нормализацију јачине звука</string>
+    <string name="loudness_normalization_extreme">Детектована екстремна вредност јачине (%s), искључује нормализацију за ову песму</string>
+    <string name="bass_boost">Појачање баса</string>
+    <string name="bass_boost_description">Појачава ниске фреквенције за побољшано искуство слушања</string>
+    <string name="bass_boost_level">Ниво појачања баса</string>
+    <string name="bass_boost_level_description">Ниво (0–1000) појачања ниских фреквенција; користите на сопствени ризик!</string>
+    <string name="reverb">Реверб</string>
+    <string name="audio_focus">Фокус на звук</string>
+    <string name="audio_focus_description">Да ли плејер треба да захтева системски фокус на звук (медије)</string>
+    <string name="equalizer_description">Интеракција са системским еквилајзером</string>
+
+    <string name="filter_placeholder">Филтер…</string>
+
+    <string name="last_interaction">Последње репродуковано</string>
+    <string name="trending">Популарно</string>
+    <string name="quick_picks_source">Извор брзих избора</string>
+    <string name="quick_picks_cache">Кеш за брзе изборе</string>
+    <string name="quick_picks_cache_description">Чува податке брзих избора на диску за приступ ван мреже</string>
+
+    <string name="player_layout">Изглед плејера</string>
+    <string name="classic_player_layout_name">Класичан</string>
+    <string name="new_player_layout_name">Модеран (нов)</string>
+
+    <string name="piped">Piped</string>
+    <string name="instance">Инстанца</string>
+    <string name="click_to_select">Кликни за избор</string>
+    <string name="username">Корисничко име</string>
+    <string name="password">Лозинка</string>
+    <string name="login">Пријава</string>
+    <string name="sync_description">Можете хостовати плејлисте на другом месту и синхронизовати их са ViTune. Тренутно подржава само Piped.</string>
+    <string name="add_account">Додај налог</string>
+    <string name="add_account_description">Повежите Piped налог са инстанцом, корисничким именом и лозинком.</string>
+    <string name="learn_more">Сазнај више</string>
+    <string name="learn_more_description">Не знате шта је Piped или немате налог? Кликните овде за преусмерење на њихову документацију</string>
+    <string name="piped_sessions">Piped сесије</string>
+    <string name="custom_instance">Користи прилагођену инстанцу</string>
+    <string name="base_api_url">API URL инстанце</string>
+    <string name="piped_session_created_successfully">Piped сесија успешно креирана</string>
+
+    <string name="seek_bar_style">Стил траке за претрагу</string>
+    <string name="static_seek_bar_name">Статичан</string>
+    <string name="wavy_seek_bar_name">Таласаста</string>
+    <string name="seek_bar_quality">Квалитет таласасте траке за претрагу</string>
+    <string name="seek_bar_quality_poor">Лош</string>
+    <string name="seek_bar_quality_low">Низак</string>
+    <string name="seek_bar_quality_medium">Средњи</string>
+    <string name="seek_bar_quality_high">Висок</string>
+    <string name="seek_bar_quality_great">Одличан</string>
+    <string name="seek_bar_quality_subpixel">Подпиксел</string>
+
+    <string name="remove_from_blacklist">Уклони са црне листе</string>
+    <string name="add_to_blacklist">Додај на црну листу</string>
+    <string name="reset_blacklist">Ресетуј црну листу</string>
+    <string name="blacklist_empty">Црна листа је празна</string>
+
+    <string name="pre_cache">Претходно кеширање</string>
+
+    <string name="swipe_to_hide_song">Превуци да сакријеш песму</string>
+    <string name="swipe_to_hide_song_description">Када превучете песму улево, биће уклоњена из базе и кеша</string>
+    <string name="swipe_to_hide_song_confirm">Потврди превлачење за скривање песме</string>
+    <string name="swipe_to_hide_song_confirm_description">Када превучете за скривање, прво морате потврдити</string>
+    <string name="hide_explicit">Сакриј експлицитне песме</string>
+    <string name="hide_explicit_description">Сакрива све експлицитне песме у целој апликацији. Плејер ће такође прескакати експлицитне песме када наиђе на њих, уколико је ова опција омогућена.</string>
+
+    <string name="version">Верзија</string>
+    <string name="check_new_version">Провери ажурирања</string>
+    <string name="current_version">Тренутно користите верзију v%1$s</string>
+    <string name="error_github">Дошло је до непознате грешке приликом преузимања података са GitHub-а</string>
+    <string name="new_version_available">Доступна је нова верзија</string>
+    <string name="more_information">Више информација</string>
+    <string name="up_to_date">Апликација је ажурирана: нема доступних ажурирања</string>
+
+    <string name="dynamic_thumbnails">Динамичке сличице</string>
+    <string name="max_dynamic_thumbnail_size">Максимална величина динамичке сличице</string>
+    <string name="max_dynamic_thumbnail_size_description">Максимална величина сличице када се користи динамичка сличица</string>
+
+    <string name="hourly">По сату</string>
+    <string name="daily">Дневно</string>
+    <string name="weekly">Недељно</string>
+    <string name="version_check">Аутоматски провери ажурирања</string>
+
+    <string name="skip_on_error">Аутоматски прескочи</string>
+    <string name="skip_on_error_description">Прескаче тренутну песму када дође до грешке.</string>
+    <string name="skip_on_error_notification">Песма %s је прескочена због грешке</string>
+    <string name="skip_on_error_notification_unknown_song">Тренутна песма је прескочена због грешке</string>
+    <string name="reverb_small_room">Мала соба</string>
+    <string name="reverb_medium_room">Средња соба</string>
+    <string name="reverb_large_room">Велика соба</string>
+    <string name="reverb_medium_hall">Средња сала</string>
+    <string name="reverb_large_hall">Велика сала</string>
+    <string name="reverb_plate">Плоча</string>
+
+    <plurals name="format_reset_blacklist_description">
+        <item quantity="one">Уклони %1$s песму са црне листе</item>
+        <item quantity="other">Уклони све %1$s песме са црне листе</item>
+    </plurals>
+
+    <plurals name="format_reset_quick_picks_amount">
+        <item quantity="one">Обриши %1$s репродукцију</item>
+        <item quantity="other">Обриши %1$s репродукција</item>
+    </plurals>
+
+    <plurals name="song_count_plural">
+        <item quantity="one">%1$d песма</item>
+        <item quantity="other">%1$d песама</item>
+    </plurals>
+</resources>

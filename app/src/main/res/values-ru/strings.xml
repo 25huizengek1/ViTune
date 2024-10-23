@@ -21,10 +21,10 @@
     <string name="past_year">Последний год</string>
     <string name="all_time">Все время</string>
 
-    <string name="songs">Песни</string>
+    <string name="songs">Музыка</string>
     <string name="playlists">Плейлисты</string>
     <string name="albums">Альбомы</string>
-    <string name="artists">Артисты</string>
+    <string name="artists">Исполнители</string>
     <string name="singles">Синглы</string>
 
     <string name="favorites">Избранное</string>
@@ -32,9 +32,9 @@
     <string name="history">История</string>
     <string name="overview">Обзор</string>
     <string name="library">Библиотека</string>
-    <string name="discover">Открыть</string>
-    <string name="local">Локальные</string>
-    <string name="quick_picks">Быстрый выбор</string>
+    <string name="discover">Исследуйте</string>
+    <string name="local">Локальное</string>
+    <string name="quick_picks">Главное</string>
     <string name="mood">Настроение</string>
     <string name="online">Онлайн</string>
     <string name="videos">Видео</string>
@@ -110,8 +110,8 @@
     <string name="new_released_albums">Новые альбомы</string>
     <string name="more">Еще</string>
 
-    <string name="artist_has_no_albums">Этот артист еще не выпустил альбом</string>
-    <string name="artist_has_no_singles">Этот артист еще не выпустил сингл</string>
+    <string name="artist_has_no_albums">Этот исполнитель еще не выпустил альбом</string>
+    <string name="artist_has_no_singles">Этот исполнитель еще не выпустил сингл</string>
 
     <string name="error_message">Произошла ошибка</string>
     <string name="error_local_music_deleted">Этот локальный музыкальный файл больше не существует</string>
@@ -138,7 +138,7 @@
     <string name="no_battery_optimization_settings_found">Не удалось найти настройки оптимизации батареи, добавьте ViTune в белый список вручную</string>
 
     <string name="related_albums">Похожие альбомы</string>
-    <string name="similar_artists">Похожие артисты</string>
+    <string name="similar_artists">Похожие исполнители</string>
     <string name="recommended_playlists">Рекомендуемые плейлисты</string>
     <string name="format_subscribers">%s подписчиков</string>
 
@@ -187,7 +187,7 @@
     <string name="request_feature">Запросить функцию или предложить идею</string>
     <string name="redirect_github">Вы будете перенаправлены на GitHub</string>
 
-    <string name="color_source">Источник акцентного цвета</string>
+    <string name="color_source">Цветовая схема</string>
     <string name="color_source_default">По умолчанию</string>
     <string name="color_source_dynamic">Динамический</string>
     <string name="color_source_material_you">Material You</string>
@@ -197,10 +197,10 @@
     <string name="darkness_pureblack">Чистый черный</string>
     <string name="darkness_amoled">AMOLED</string>
 
-    <string name="color_mode">Режим</string>
-    <string name="color_mode_light">Светлый</string>
-    <string name="color_mode_dark">Темный</string>
-    <string name="color_mode_system">Системный</string>
+    <string name="color_mode">Тема</string>
+    <string name="color_mode_light">Светлая</string>
+    <string name="color_mode_dark">Темная</string>
+    <string name="color_mode_system">Системная</string>
 
     <string name="thumbnail_roundness">Скругленность миниатюр</string>
     <string name="none">Нет</string>
@@ -325,7 +325,9 @@
     <string name="reverb">Реверберация</string>
     <string name="audio_focus">Фокус аудио</string>
     <string name="audio_focus_description">Нужно ли плееру запрашивать системный медиафокус</string>
-    <string name="equalizer_description">Взаимодействие с системным эквалайзером</string>
+    <string name="sponsor_block">Sponsorblock</string>
+    <string name="sponsor_block_description">Пропускает рекламный контент или контент не в тему используя Sponsorblock API</string>
+    <string name="equalizer_description">Открыть встроенный эквалайзер</string>
 
     <string name="filter_placeholder">Фильтр…</string>
 

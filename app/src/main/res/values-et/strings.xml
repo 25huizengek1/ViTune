@@ -323,6 +323,8 @@
     <string name="bass_boost_level">Bassivoimenduse tase</string>
     <string name="bass_boost_level_description">Tase (0–1000) madalate frekantside võimendamiseks; kasuta oma riskil!</string>
     <string name="reverb">Kaja</string>
+    <string name="sponsor_block">Sponsorblock</string>
+    <string name="sponsor_block_description">Blokeerib sponsoreeritud/välisteemalise sisu, kasutades Sponsorblock API</string>
     <string name="audio_focus">Audio fookus</string>
     <string name="audio_focus_description">Kas mängija peaks küsima süsteemi tasandi audio (meedia) fookust</string>
     <string name="equalizer_description">Suhtle süsteemi ekvalaiseriga</string>

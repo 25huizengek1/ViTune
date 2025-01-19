@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="format_minutes">%1$dm</string>
+    <string name="format_hours">%1$dh</string>
+    <string name="format_days">%1$dd</string>
+    <string name="format_time_left">%1$s बचे है</string>
+    <string name="format_db">%1$s dB</string>
+    <string name="format_kbps">%1$s kbps</string>
+    <string name="format_ms">%1$s ms</string>
+    <string name="format_px">%1$spx</string>
+
+    <string name="format_go_to_artist">%1$s की और से अधिक</string>
+    <string name="format_top_playlist">शीर्ष %1$s</string>
+    <string name="format_my_top_playlist">मेरे शीर्ष %1$s</string>
+    <string name="format_view_top_of_header">शीर्ष %1$s देखें…</string>
+    <string name="format_multiplier">%1$sx</string>
+
+    <string name="past_24_hours">पिछले 24 घंटे</string>
+    <string name="past_week">पिछले सप्ताह</string>
+    <string name="past_month">पिछले महीना</string>
+    <string name="past_year">पिछले वर्ष</string>
+    <string name="all_time">पूरे समय</string>
+
+    <string name="songs">गीत</string>
+    <string name="playlists">प्लेलिस्ट</string>
+    <string name="albums">एल्बम</string>
+    <string name="artists">कलाकार</string>
+    <string name="singles">सिंगल्स</string>
+
+    <string name="favorites">पसंदीदा</string>
+    <string name="offline">ऑफलाइन</string>
+    <string name="history">इतिहास</string>
+    <string name="overview">संक्षिप्त विवरण</string>
+    <string name="library">संग्रह</string>
+    <string name="discover">खोज</string>
+    <string name="local">स्थानीय</string>
+    <string name="quick_picks">त्वरित चयन</string>
+    <string name="mood">मनोदशा</string>
+    <string name="online">ऑनलाइन</string>
+    <string name="videos">वीडियो</string>
+    <string name="about">के बारे में</string>
+    <string name="appearance">उपस्थिति</string>
+    <string name="colors">रंग</string>
+    <string name="shapes">आकार</string>
+
+    <string name="skip_back">वापस जाएं</string>
+    <string name="skip_forward">आगे बढ़ो</string>
+    <string name="play">बजाओ</string>
+    <string name="pause">विश्राम</string>
+    <string name="like">पसंद</string>
+    <string name="shuffle">मिश्रण</string>
+    <string name="sync">सिंक</string>
+    <string name="start_radio">रेडियो शुरू करें</string>
+    <string name="play_next">अगला बजाओ</string>
+    <string name="enqueue">कतारबद्ध करें</string>
+
+    <string name="sleep_timer">स्लीप टाइमर</string>
+    <string name="sleep_timer_ended">स्लीप टाइमर समाप्त</string>
+    <string name="sleep_timer_until_song_end">गाना ख़त्म होने तक</string>
+    <string name="stop_sleep_timer_prompt">क्या आप स्लीप टाइमर को रोकना चाहते हैं?</string>
+    <string name="equalizer">इक्वलाइज़र</string>
+    <string name="set_sleep_timer">स्लीप टाइमर सेट करें</string>
+
+    <string name="cancel">रद्द</string>
+    <string name="done">हो गया</string>
+    <string name="confirm">पुष्टि</string>
+    <string name="no">नहीं</string>
+    <string name="stop">रुको</string>
+    <string name="set">सेट</string>
+    <string name="hide">छिपाओ</string>
+    <string name="rename">नाम बदलें</string>
+    <string name="delete">मिटाना</string>
+    <string name="reset">रीसेट</string>
+    <string name="clear">साफ़ करें</string>
+    <string name="view_all">सभी को देखें</string>
+
+    <string name="on_label">चालू</string>
+    <string name="off_label">बंद</string>
+    <string name="off_text">बंद</string>
+    <string name="unknown">अज्ञात</string>
+    <string name="now_playing">अभी चल रहा है</string>
+
+    <string name="enter_playlist_name_prompt">प्लेलिस्ट का नाम दर्ज करें</string>
+    <string name="new_playlist">नई प्लेलिस्ट</string>
+    <string name="add_to_playlist">प्लेलिस्ट में जोड़ें</string>
+
+    <string name="go_to_album">एल्बम पर जाएँ</string>
+
+    <string name="watch_on_youtube">YouTube पर देखें</string>
+    <string name="open_in_youtube_music">YouTube Music में खोलें</string>
+    <string name="watch_playlist_on_youtube">YouTube पर प्लेलिस्ट देखें</string>
+    <string name="youtube_music_not_installed">आपके डिवाइस पर YouTube Music इंस्टॉल नहीं है!</string>
+
+    <string name="remove_from_queue">कतार से हटाएँ</string>
+    <string name="remove_from_playlist">प्लेलिस्ट से हटाएँ</string>
+
+    <string name="hide_from_quick_picks">\"त्वरित चयन\" से छिपाएं</string>
+    <string name="confirm_hide_song">क्या आप वाकई इस गाने को छिपाना चाहते हैं? इसका प्लेबैक समय और कैश मिटा दिया जाएगा। यह क्रिया अपरिवर्तनीय है।</string>
+    <string name="confirm_delete_playlist">क्या आप वाकई इस प्लेलिस्ट को हटाना चाहते हैं?</string>
+    <string name="confirm_delete_piped_session">क्या आप वाकई इस Piped सत्र को हटाना चाहते हैं?</string>
+
+    <string name="other_versions">अन्य संस्करण</string>
+    <string name="no_alternative_version">इस एल्बम का कोई वैकल्पिक संस्करण नहीं है</string>
+
+    <string name="from_wikipedia">विकिपीडिया से</string>
+    <string name="wikipedia_cc_by_sa">क्रिएटिव कॉमन्स एट्रिब्यूशन CC-BY-SA 3.0 के अंतर्गत विकिपीडिया से</string>
+    <string name="quote_open">“</string>
+    <string name="quote_close">„</string>
+
+    <string name="moods_and_genres">मूड और शैलियां</string>
+    <string name="new_released_albums">नये रिलीज़ हुए एल्बम</string>
+    <string name="more">अधिक</string>
+
+    <string name="artist_has_no_albums">इस कलाकार ने अभी तक कोई एल्बम रिलीज़ नहीं किया है</string>
+    <string name="artist_has_no_singles">इस कलाकार ने अभी तक कोई सिंगल्स रिलीज़ नहीं किया है</string>
+
+    <string name="error_message">एक गलती हुई है</string>
+    <string name="error_local_music_deleted">यह स्थानीय संगीत फ़ाइल अब मौजूद नहीं है</string>
+    <string name="error_network">नेटवर्क त्रुटि उत्पन्न हुई है</string>
+    <string name="error_unplayable">कोई बजाने योग्य ऑडियो प्रारूप नहीं मिल सका</string>
+    <string name="error_source_deleted">इस गीत का मूल वीडियो स्रोत हटा दिया गया है</string>
+    <string name="error_server_restrictions">सर्वर प्रतिबंधों के कारण यह गाना नहीं चलाया जा सकता</string>
+    <string name="error_id_mismatch">लौटाया गया वीडियो आईडी अनुरोधित वीडियो आईडी से मेल नहीं खाता</string>
+    <string name="error_unknown_playback">एक अज्ञात प्लेबैक त्रुटि हुई है</string>
+    <string name="error_piped_link">आपके Piped खाते को लिंक करते समय कोई अज्ञात त्रुटि हुई। कृपया पुनः प्रयास करें।</string>
+    <string name="error_piped_instances_unavailable">Piped इंस्टेंस सूची वर्तमान में अनुपलब्ध है</string>
+    <string name="error_bassboost_init">बास बूस्ट आरंभ करने में त्रुटि हुई। संभवतः आपका डिवाइस इसका समर्थन नहीं करता है। बास बूस्ट स्तर को बदलने का प्रयास करें या पुनः प्रयास करें।</string>
+    <string name="error_pre_cache">प्री-कैशिंग के दौरान एक अज्ञात त्रुटि हुई। कृपया पुनः प्रयास करें।</string>
+    <string name="error_url">यूआरएल नहीं खोला जा सका %1$s</string>
+
+    <string name="media_permission_declined">अनुमति अस्वीकृत, कृपया अपने डिवाइस की सेटिंग में मीडिया अनुमति प्रदान करें।</string>
+    <string name="open_settings">सेटिंग्स खोलें</string>
+    <string name="no_items_found">कोई आइटम नहीं मिला</string>
+    <string name="no_search_results">कोई परिणाम नहीं मिला। कृपया कोई अन्य सवाल या श्रेणी आज़माएँ</string>
+
+    <string name="no_browser_installed">इंटरनेट ब्राउज़ करने के लिए कोई एप्लिकेशन नहीं मिल सका</string>
+    <string name="no_equalizer_installed">ऑडियो को समान करने वाला कोई एप्लिकेशन नहीं मिला</string>
+    <string name="no_file_chooser_installed">दस्तावेज़ बनाने के लिए कोई एप्लिकेशन नहीं मिल सका</string>
+    <string name="no_battery_optimization_settings_found">बैटरी ऑप्टिमाइज़ेशन सेटिंग नहीं मिल सकी, कृपया ViTune को ख़ुद से श्वेतसूची में डालें</string>
+
+    <string name="related_albums">संबंधित एल्बम</string>
+    <string name="similar_artists">समान कलाकार</string>
+    <string name="recommended_playlists">प्लेलिस्ट जो आपको पसंद आ सकती हैं</string>
+    <string name="format_subscribers">%s सब्सक्राइबर</string>
+
+    <string name="enter_lyrics">गीतिकाव्य दर्ज करें</string>
+    <string name="no_lyrics_found">कोई गीतिकाव्य ट्रैक नहीं मिला</string>
+    <string name="choose_lyric_track">गीतिकाव्य ट्रैक चुनें</string>
+    <string name="synchronized_lyrics_not_available">इस गीत के लिए समकालिक गीतिकाव्य उपलब्ध नहीं हैं</string>
+    <string name="lyrics_not_available">इस गाने के गीतिकाव्य उपलब्ध नहीं हैं</string>
+    <string name="invalid_synchronized_lyrics">अमान्य सिंक्रनाइज़ किए गए गीतिकाव्य, गीतिकाव्य को पुनः प्राप्त करें या संपादित करें और पुनः प्रयास करें</string>
+    <string name="show_unsynchronized_lyrics">असंगत गीतिकाव्य दिखाएं</string>
+    <string name="show_synchronized_lyrics">समकालिक गीतिकाव्य दिखाएं</string>
+    <string name="provided_lyrics_by">lrclib.net और kugou.com द्वारा प्रदान किया गया हैं</string>
+    <string name="edit_lyrics">गीतिकाव्य संपादित करें</string>
+    <string name="search_lyrics_online">गीत गीतिकाव्य खोजें</string>
+    <string name="refetch_lyrics">गीतिकाव्य फिर से लाएँ</string>
+    <string name="pick_from_lrclib">lrclib.net से गीतिकाव्य चुनें</string>
+    <string name="set_lyrics_start_offset">आरंभिक ऑफसेट सेट करें</string>
+    <string name="set_lyrics_start_offset_description">वर्तमान प्लेबैक समय के अनुसार सिंक्रनाइज़ किए गए गीतों को ऑफसेट करता है</string>
+
+    <string name="playback_speed">रफ़्तार</string>
+    <string name="playback_pitch">उतार-चढ़ाव</string>
+    <string name="playback_settings">गति और उतार-चढ़ाव</string>
+    <string name="minimum_speed_value">आप ऐसा क्यों करेंगे?!</string>
+    <string name="volume_boost">वॉल्यूम बूस्ट</string>
+    <string name="queue_loop">कतार लूप</string>
+    <string name="add_queue_to_playlist">प्लेलिस्ट में कतार जोड़ें</string>
+
+    <string name="id">आइडी</string>
+    <string name="itag">लेबल</string>
+    <string name="bitrate">बिटरेट</string>
+    <string name="size">माप</string>
+    <string name="cached">कैश्ड</string>
+    <string name="loudness">आवाज़ की उंचाई</string>
+    <string name="reload">पुनः लोड करें</string>
+
+    <string name="view_album">एल्बम देखें</string>
+    <string name="view_playlist">प्लेलिस्ट देखें</string>
+
+    <string name="search_placeholder">नाम डालें</string>
+    <string name="format_version_credits">v%1$s Huizengek और vfsfitvnm द्वारा</string>
+    <string name="social">सामाजिक संपर्क</string>
+    <string name="contact">संपर्क</string>
+    <string name="github">GitHub</string>
+    <string name="view_source">स्रोत कोड देखें</string>
+    <string name="report_bug">समस्या की रिपोर्ट करें</string>
+    <string name="report_bug_description">यदि आपको किसी बग के संबंध में सहायता की आवश्यकता है तो आप GitHub पर समस्या दर्ज कर सकते हैं (पुनर्निर्देशित करने के लिए क्लिक करें)</string>
+    <string name="request_feature">किसी सुविधा का अनुरोध करें या कोई विचार सुझाएँ</string>
+    <string name="redirect_github">आपको GitHub पर पुनः निर्देशित किया जाएगा</string>
+
+    <string name="color_source">उच्चारण रंग स्रोत</string>
+    <string name="color_source_default">डिफ़ॉल्ट</string>
+    <string name="color_source_dynamic">गतिशील</string>
+    <string name="color_source_material_you">मटेरियल यू</string>
+
+    <string name="darkness">अंधेरा</string>
+    <string name="darkness_normal">सामान्य</string>
+    <string name="darkness_pureblack">PureBlack</string>
+    <string name="darkness_amoled">AMOLED</string>
+
+    <string name="color_mode">तरीका</string>
+    <string name="color_mode_light">रोशनी</string>
+    <string name="color_mode_dark">अँधेरा</string>
+    <string name="color_mode_system">सिस्टम</string>
+
+    <string name="thumbnail_roundness">थंबनेल गोलाई</string>
+    <string name="none">कोई नहीं</string>
+    <string name="thumbnail_roundness_light">रोशनी</string>
+    <string name="thumbnail_roundness_medium">मध्यम</string>
+    <string name="thumbnail_roundness_heavy">भारी</string>
+    <string name="thumbnail_roundness_heavier">और भी भारी</string>
+    <string name="thumbnail_roundness_heaviest">सबसे भारी</string>
+
+    <string name="text">शब्द</string>
+    <string name="font">फ़ॉन्ट</string>
+    <string name="use_system_font">सिस्टम फ़ॉन्ट का उपयोग करें</string>
+    <string name="use_system_font_description">सिस्टम द्वारा लागू फ़ॉन्ट का उपयोग करें</string>
+    <string name="apply_font_padding">फ़ॉन्ट पैडिंग लागू करें</string>
+    <string name="apply_font_padding_description">शब्दों के चारों ओर रिक्त स्थान जोड़ें</string>
+    <string name="language">भाषा</string>
+
+    <string name="lockscreen">लॉक स्क्रीन</string>
+    <string name="show_song_cover">गीत कवर दिखाएँ</string>
+    <string name="show_song_cover_description">बजाए जा रहे गाने के कवर को लॉक स्क्रीन वॉलपेपर के रूप में उपयोग करें</string>
+
+    <string name="player">प्लेयर</string>
+    <string name="previous_button_while_collapsed">पिछला बटन ढह होने पर</string>
+    <string name="previous_button_while_collapsed_description">प्लेयर ढह होने पर पिछला गाना बटन दिखाता है</string>
+    <string name="swipe_horizontally_to_close">बंद करने के लिए क्षैतिज रूप से स्वाइप करें</string>
+    <string name="swipe_horizontally_to_close_description">ढह प्लेयर पर बाएँ/दाएँ स्वाइप करने पर प्लेयर बंद हो जाता है। Android के वन-हैंडेड मोड सक्षम उपयोगकर्ताओं के लिए उपयोगी।</string>
+    <string name="show_like_button">लाइक बटन दिखाएं</string>
+    <string name="show_like_button_description">लाइक बटन को सीधे प्लेयर में दिखाएं</string>
+    <string name="swipe_to_remove_item">आइटम हटाने के लिए स्वाइप करें</string>
+    <string name="swipe_to_remove_item_description">किसी आइटम को कतार से हटाने के लिए बाईं ओर स्वाइप करें</string>
+    <string name="lyrics_keep_screen_awake">स्क्रीन को जगाए रखें (गीतिकाव्य)</string>
+    <string name="lyrics_keep_screen_awake_description">गीतिकाव्य प्रदर्शित होने के दौरान स्क्रीन को सक्रिय रखता है</string>
+    <string name="lyrics_show_system_bars">सिस्टम बार दिखाएँ (गीतिकाव्य)</string>
+    <string name="lyrics_show_system_bars_description">इसे बंद करने से सिस्टम-वाइड फ़ुल-स्क्रीन सक्षम हो जाती है</string>
+    <string name="pip">PIP</string>
+    <string name="pip_description">पृष्ठभूमि पर डालने पर स्वचालित रूप से पिक्चर-इन-पिक्चर मोड पर चला जाता है</string>
+    <string name="auto_open_player">प्लेयर खोलें</string>
+    <string name="auto_open_player_description">किसी गाने पर टैप करने पर प्लेयर का स्वचालित रूप से विस्तार करें</string>
+
+    <string name="cache">कैश</string>
+    <string name="cache_description">जब कैश में जगह खत्म हो जाती है, तो जिन संसाधनों तक लंबे समय से पहुंच नहीं बनाई गई है, उन्हें हटा दिया जाता है</string>
+    <string name="image_cache">छवि कैश</string>
+    <string name="max_size">अधिकतम आकार</string>
+    <string name="format_cache_space_used">%1$s इस्तेमाल किया गया</string>
+    <string name="format_cache_space_used_percentage">%1$s इस्तेमाल किया गया (%2$s%%)</string>
+    <string name="song_cache">गाना कैश</string>
+    <string name="pause_song_cache">विराम कैश</string>
+    <string name="pause_song_cache_description">कैश में जोड़े जा रहे नए गानों को अस्थायी रूप से रोकें</string>
+    <string name="database">डेटाबेस</string>
+
+    <string name="cleanup">साफ - सफाई</string>
+    <string name="pause_playback_history">प्लेबैक इतिहास रोकें</string>
+    <string name="pause_playback_history_description">त्वरित चयन के लिए उपयोग किए जा रहे प्लेबैक ईवेंट को रोकता है</string>
+    <string name="pause_playback_history_warning">कृपया ध्यान दें: इससे ऑफ़लाइन कैशिंग प्रभावित नहीं होगी!</string>
+    <string name="reset_quick_picks">त्वरित चयन रीसेट करें</string>
+    <string name="quick_picks_empty">त्वरित चयन साफ़ कर दिए गए हैं</string>
+    <string name="pause_playback_time">प्लेबैक समय रोकें</string>
+    <string name="format_pause_playback_time_description">प्लेबैक समय को सहेजे जाने से रोकता है। यह \'मेरी शीर्ष %1$s\'प्लेलिस्ट में सांख्यिकी को रोक देता है!</string>
+
+    <string name="backup">बैकअप</string>
+    <string name="backup_description">व्यक्तिगत प्राथमिकताएं (अर्थात थीम मोड) और कैश को इसमें शामिल नहीं किया गया है।</string>
+    <string name="backup_action_description">डेटाबेस को बाह्य संग्रहण में निर्यात करें</string>
+    <string name="restore">पुनर्स्थापित</string>
+    <string name="restore_warning">मौजूदा डेटा अधिलेखित कर दिया जाएगा। \nडेटाबेस को पुनर्स्थापित करने के बाद ViTune स्वचालित रूप से बंद हो जाएगा।</string>
+    <string name="restore_description">एक्सटर्नल स्टोरेज से डेटाबेस आयात करें</string>
+
+    <string name="other">अन्य</string>
+    <string name="android_auto">एंड्रॉइड ऑटो</string>
+    <string name="android_auto_description">Android Auto समर्थन सक्षम करें</string>
+    <string name="android_auto_warning">Android Auto की डेवलपर सेटिंग में \"Unknown sources\" को सक्षम करना याद रखें।</string>
+    <string name="search_history">खोज इतिहास</string>
+    <string name="pause_search_history">खोज इतिहास रोकें</string>
+    <string name="pause_search_history_description">न तो नई खोजी गई क्वेरीज़ सहेजें और न ही इतिहास दिखाएं</string>
+    <string name="clear_search_history">खोज इतिहास साफ़ करें</string>
+    <string name="format_clear_search_history_amount">%1$s खोज क्वेरी हटाएं</string>
+    <string name="empty_history">इतिहास खाली है</string>
+    <string name="built_in_playlists">अंतर्निहित प्लेलिस्ट</string>
+    <string name="auto_sync_playlists">प्लेलिस्ट को स्वचालित रूप से सिंक करें</string>
+    <string name="auto_sync_playlists_description">जब आप YouTube से सहेजी गई प्लेलिस्ट खोलते हैं तो उन्हें स्वचालित रूप से सिंक कर देता है</string>
+    <string name="top_list_length">शीर्ष सूची की लंबाई</string>
+    <string name="top_list_length_description">\'मेरी शीर्ष x\' प्लेलिस्ट की लंबाई सीमित करता है</string>
+
+    <string name="service_lifetime">सेवा जीवनकाल</string>
+    <string name="service_lifetime_warning">यदि बैटरी अनुकूलन लागू किया गया है, तो रोके जाने पर प्लेबैक अधिसूचना अचानक गायब हो सकती है।</string>
+    <string name="service_lifetime_warning_android_12">एंड्रॉइड 12 के बाद से, अजेय सेवा विकल्प उपलब्ध होने के लिए बैटरी अनुकूलन को अक्षम करना आवश्यक है।</string>
+    <string name="ignore_battery_optimizations">बैटरी अनुकूलन को अनदेखा करें</string>
+    <string name="ignoring_battery_optimizations">प्रतिबंध पहले ही हटा लिया गया है</string>
+    <string name="ignore_battery_optimizations_action">पृष्ठभूमि प्रतिबंध अक्षम करें</string>
+    <string name="invincible_service">अजेय सेवा</string>
+    <string name="invincible_service_description">यदि बैटरी अनुकूलन को बंद करना पर्याप्त न हो तो प्लेबैक को 99.99% समय तक चालू रखना चाहिए</string>
+
+    <string name="need_help">मदद की ज़रूरत है?</string>
+    <string name="need_help_description">अधिकांश समय, यह डेवलपर की गलती नहीं होती है (अजेय सेवा चालू करने के बाद भी) कि ऐप पृष्ठभूमि में ठीक से काम करना बंद कर देता है।\nजांचें कि क्या आपका डिवाइस निर्माता आपके ऐप्स को बंद करता है (रीडायरेक्ट करने के लिए क्लिक करें)</string>
+    <string name="service_lifetime_report_issue">यदि आपको सचमुच लगता है कि ऐप में ही कुछ गड़बड़ है, तो के बारे में टैब पर जाएं</string>
+    <string name="troubleshooting">समस्या निवारण</string>
+    <string name="troubleshooting_warning">सावधानी: ऑडियो प्लेबैक विफल होने पर इन बटनों का उपयोग अंतिम उपाय के रूप में करें</string>
+    <string name="reload_app_internals">ऐप के आंतरिक भाग को पुनः लोड करें</string>
+    <string name="kill_app">अनुप्रयोग को अंत करें</string>
+    <string name="show_logs">डिबग लॉग देखें</string>
+    <string name="logs">लॉग्स</string>
+    <string name="show_troubleshoot_section">समस्या निवारण अनुभाग दिखाएँ</string>
+
+    <string name="persistent_queue">लगातार कतार</string>
+    <string name="persistent_queue_description">चल रहे गानों को सहेजें और पुनर्स्थापित करें</string>
+    <string name="resume_playback">प्लेबैक वापस चालू करें</string>
+    <string name="resume_playback_description">जब कोई वायर्ड या ब्लूटूथ डिवाइस कनेक्ट किया जाता है</string>
+    <string name="stop_when_closed">बंद होने पर रुकें</string>
+    <string name="stop_when_closed_description">जब आप ऐप बंद करते हैं, तो संगीत बजना बंद हो जाता है</string>
+    <string name="pause_minimum_volume">न्यूनतम आवाज़ पर रोकें</string>
+    <string name="pause_minimum_volume_description">जब आप अपने डिवाइस का आवाज़ शून्य पर सेट करें तो प्लेयर को रोकें</string>
+
+    <string name="audio">ऑडियो</string>
+    <string name="skip_silence">मौन भागों को छोड़ें</string>
+    <string name="skip_silence_description">प्लेबैक के दौरान मौन भागों को छोड़ें</string>
+    <string name="minimum_silence_length">न्यूनतम मौन अवधिन्यूनतम मौन अवधि</string>
+    <string name="minimum_silence_length_description">ऑडियो को छोड़ने के लिए न्यूनतम समय तक मौन रहना आवश्यक है</string>
+    <string name="minimum_silence_length_warning">परिवर्तनों को प्रभावी बनाने के लिए प्लेयर को पुनः प्रारंभ करना होगा!</string>
+    <string name="restart_service">सेवा पुनः आरंभ करें</string>
+    <string name="loudness_normalization">प्रबलता सामान्यीकरण</string>
+    <string name="loudness_normalization_description">आवाज़ को एक निश्चित स्तर पर समायोजित करें</string>
+    <string name="loudness_base_gain">प्रबलता आधार लाभ</string>
+    <string name="loudness_base_gain_description">प्रबलता सामान्यीकरण के लिए \'लक्ष्य\' लाभ</string>
+    <string name="loudness_normalization_extreme">अत्यधिक ध्वनि मान (%s) का पता चला, इस गीत के लिए सामान्यीकरण बंद कर दिया गया</string>
+    <string name="bass_boost">बास बूस्ट</string>
+    <string name="bass_boost_description">सुनने के अनुभव को बेहतर बनाने के लिए निम्न आवृत्तियों को बढ़ाएँ</string>
+    <string name="bass_boost_level">बास बूस्ट स्तर</string>
+    <string name="bass_boost_level_description">निम्न आवृत्तियों को बढ़ाने का स्तर (0–1000); अपने जोखिम पर उपयोग करें!</string>
+    <string name="sponsor_block">Sponsorblock</string>
+    <string name="sponsor_block_description">Sponsorblock एपीआई से डेटा का उपयोग करके प्रायोजित/विषय से हटकर सामग्री को ब्लॉक करता है</string>
+    <string name="reverb">गूंज</string>
+    <string name="audio_focus">ऑडियो फोकस</string>
+    <string name="audio_focus_description">क्या प्लेयर को सिस्टम-वाइड ऑडियो (मीडिया) फ़ोकस का अनुरोध करना चाहिए</string>
+    <string name="equalizer_description">सिस्टम इक्वलाइज़र के साथ बातचीत करें</string>
+
+    <string name="filter_placeholder">फ़िल्टर…</string>
+
+    <string name="last_interaction">पहले बजाया गया</string>
+    <string name="trending">प्रचलित</string>
+    <string name="quick_picks_source">त्वरित चयन स्रोत</string>
+    <string name="quick_picks_cache">त्वरित चयन डेटा कैश करें</string>
+    <string name="quick_picks_cache_description">ऑफ़लाइन पहुँच के लिए त्वरित चयन डेटा को डिस्क पर सहेजता है</string>
+
+    <string name="player_layout">प्लेयर लेआउट</string>
+    <string name="classic_player_layout_name">क्लासिक</string>
+    <string name="new_player_layout_name">आधुनिक (नया)</string>
+
+    <string name="piped">Piped</string>
+    <string name="instance">उदाहरण</string>
+    <string name="click_to_select">चुनने के लिए क्लिक करें</string>
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="password">पासवर्ड</string>
+    <string name="login">लॉग इन</string>
+    <string name="sync_description">आप प्लेलिस्ट को कहीं और होस्ट कर सकते हैं और उन्हें ViTune के साथ सिंक्रोनाइज़ कर सकते हैं। वर्तमान में केवल Piped का समर्थन करता है।</string>
+    <string name="add_account">खाता जोड़ें</string>
+    <string name="add_account_description">Piped खाते को अपने इंस्टैंस, उपयोगकर्ता नाम और पासवर्ड से लिंक करें।</string>
+    <string name="learn_more">अधिक जानें</string>
+    <string name="learn_more_description">क्या आपको नहीं पता कि Piped क्या है या आपके पास कोई अकाउंट नहीं है? उनके दस्तावेज़ों पर रीडायरेक्ट होने के लिए यहाँ क्लिक करें</string>
+    <string name="piped_sessions">Piped सत्र</string>
+    <string name="custom_instance">कस्टम इंस्टेंस का उपयोग करें</string>
+    <string name="base_api_url">इंस्टेंस एपीआई यूआरएल</string>
+    <string name="piped_session_created_successfully">Piped सत्र सफलतापूर्वक बनाया गया</string>
+
+    <string name="seek_bar_style">सीक बार शैली</string>
+    <string name="static_seek_bar_name">स्थिर</string>
+    <string name="wavy_seek_bar_name">लहरदार</string>
+    <string name="seek_bar_quality">लहरदार सीक बार गुणवत्ता</string>
+    <string name="seek_bar_quality_poor">बहुत कम</string>
+    <string name="seek_bar_quality_low">कम</string>
+    <string name="seek_bar_quality_medium">मध्यम</string>
+    <string name="seek_bar_quality_high">उच्च</string>
+    <string name="seek_bar_quality_great">महान</string>
+    <string name="seek_bar_quality_subpixel">सब-पिक्सेल</string>
+
+    <string name="remove_from_blacklist">ब्लैकलिस्ट से हटाएँ</string>
+    <string name="add_to_blacklist">ब्लैकलिस्ट में जोड़ें</string>
+    <string name="reset_blacklist">ब्लैकलिस्ट रीसेट करें</string>
+    <string name="blacklist_empty">ब्लैकलिस्ट खाली</string>
+
+    <string name="pre_cache">प्री कैश</string>
+
+    <string name="swipe_to_hide_song">गाना छिपाने के लिए स्वाइप करें</string>
+    <string name="swipe_to_hide_song_description">जब आप किसी गाने को बाईं ओर स्वाइप करते हैं, तो वह डेटाबेस और कैश से हट जाता है</string>
+    <string name="swipe_to_hide_song_confirm">गाना छिपाने के लिए स्वाइप की पुष्टि करें</string>
+    <string name="swipe_to_hide_song_confirm_description">जब आप छिपाने के लिए स्वाइप करते हैं, तो आपको पहले पुष्टि करनी होगी</string>
+    <string name="hide_explicit">अश्लील गाने छिपाएँ</string>
+    <string name="hide_explicit_description">पूरे ऐप में सभी अश्लील गाने छिपा देता है। प्लेयर भी अश्लील गाने आने पर उन्हें छोड़ देगा और यह सेटिंग सक्षम है।</string>
+
+    <string name="version">संस्करण</string>
+    <string name="check_new_version">अद्यतन के लिए जाँच</string>
+    <string name="current_version">आप वर्तमान में संस्करण v%1$s चला रहे हैं</string>
+    <string name="error_github">GitHub से डेटा प्राप्त करते समय एक अज्ञात त्रुटि हुई</string>
+    <string name="new_version_available">एक नया संस्करण उपलब्ध है</string>
+    <string name="more_information">अधिक जानकारी</string>
+    <string name="up_to_date">आप वर्तमान में अद्यतित हैं: कोई अद्यतन उपलब्ध नहीं है</string>
+
+    <string name="dynamic_thumbnails">गतिशील थंबनेल</string>
+    <string name="max_dynamic_thumbnail_size">अधिकतम गतिशील थंबनेल आकार</string>
+    <string name="max_dynamic_thumbnail_size_description">गतिशील थंबनेल का उपयोग करते समय थंबनेल का अधिकतम आकार</string>
+
+    <string name="hourly">प्रति घंटा</string>
+    <string name="daily">रोज़ाना</string>
+    <string name="weekly">साप्ताहिक</string>
+    <string name="version_check">अद्यतन के लिए स्वचालित रूप से जाँच करें</string>
+
+    <string name="skip_on_error">स्वचालित छोड़ें</string>
+    <string name="skip_on_error_description">जब कोई त्रुटि होती है तो वर्तमान गीत को छोड़ देता है।</string>
+    <string name="skip_on_error_notification">त्रुटि के कारण %s छोड़ा गया</string>
+    <string name="skip_on_error_notification_unknown_song">किसी त्रुटि के कारण वर्तमान गीत को छोड़ दिया गया</string>
+    <string name="reverb_small_room">छोटा कमरा</string>
+    <string name="reverb_medium_room">मध्यम कमरा</string>
+    <string name="reverb_large_room">बड़ा कमरा</string>
+    <string name="reverb_medium_hall">मध्यम हॉल</string>
+    <string name="reverb_large_hall">बड़ा हॉल</string>
+    <string name="reverb_plate">प्लेट</string>
+
+    <string name="tabs">टैब</string>
+
+    <plurals name="format_reset_blacklist_description">
+        <item quantity="one">%1$s गाने को ब्लैकलिस्ट से हटाएँ</item>
+        <item quantity="other">सभी %1$s गानों को ब्लैकलिस्ट से हटाएँ</item>
+    </plurals>
+
+    <plurals name="format_reset_quick_picks_amount">
+        <item quantity="one">%1$s प्लेबैक ईवेंट हटाएं</item>
+        <item quantity="other">%1$s प्लेबैक ईवेंट हटाएं</item>
+    </plurals>
+
+    <plurals name="song_count_plural">
+        <item quantity="one">%1$d गाना</item>
+        <item quantity="other">%1$d गीत</item>
+    </plurals>
+</resources>

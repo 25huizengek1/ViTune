@@ -20,12 +20,21 @@ jobs:
       - name: Grant execute permission to Gradle
         run: chmod +x gradlew
 
-      - name: Build APK
-        run: ./gradlew assembleRelease
+      - name: Build and Sign APK
+        run: |
+          ./gradlew assembleRelease
+          mkdir -p signed-apk
+          apk_name=$(ls app/build/outputs/apk/release/*.apk | head -n 1)
+          apk_basename=$(basename "$apk_name" .apk)
+          apk_version=$(echo "$apk_basename" | grep -oP '(?<=-)[0-9]+\.[0-9]+\.[0-9]+')
+          apk_type=$(echo "$apk_basename" | grep -oP '(?<=-)[a-zA-Z]+$')
+          signed_apk_name="appname-$apk_version-$apk_type.apk"
+          jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore app/release.keystore -storepass android -keypass android "$apk_name" alias_name
+          mv "$apk_name" "signed-apk/$signed_apk_name"
 
-      - name: Upload APK
+      - name: Upload Signed APK
         uses: actions/upload-artifact@v4
         with:
-          name: release-apk
-          path: app/build/outputs/apk/release/*.apk
+          name: signed-apk
+          path: signed-apk/*.apk
           if-no-files-found: error

@@ -1,34 +1,31 @@
-name: Android Build
+name: Build Android APK
 
 on:
-  workflow_dispatch:  # Allows manual trigger
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set Up JDK
+      - name: Set up JDK
         uses: actions/setup-java@v3
         with:
-          distribution: 'zulu'
+          distribution: 'temurin'
           java-version: '17'
 
-      - name: Decode Keystore
-        run: |
-          echo "${{ secrets.TEST_KEYSTORE }}" | base64 --decode > test-keystore.jks
-
-      - name: Grant Execute Permission for Gradlew
+      - name: Grant execute permission to Gradle
         run: chmod +x gradlew
 
-      - name: Build the Release APK
+      - name: Build APK
         run: ./gradlew assembleRelease
 
       - name: Upload APK
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: release-apk
           path: app/build/outputs/apk/release/*.apk
+          if-no-files-found: error

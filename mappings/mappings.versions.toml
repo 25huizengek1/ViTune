@@ -1,0 +1,7 @@
+[versions]
+smali = "3.0.7"
+
+[libraries]
+smali = { module = "com.android.tools.smali:smali", version.ref = "smali" }
+smali_dexlib2 = { module = "com.android.tools.smali:smali-dexlib2", version.ref = "smali" }
+mappings = { module = "io.github.770grappenmaker:mappings-util", version = "0.1.7" }

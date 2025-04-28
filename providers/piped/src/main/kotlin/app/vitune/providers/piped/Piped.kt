@@ -22,6 +22,7 @@ import io.ktor.client.request.post
 import io.ktor.client.request.request
 import io.ktor.client.request.setBody
 import io.ktor.client.statement.HttpResponse
+import io.ktor.http.appendPathSegments
 import io.ktor.http.ContentType
 import io.ktor.http.HttpMethod
 import io.ktor.http.URLBuilder
@@ -37,7 +38,10 @@ import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
 import java.util.UUID
 
-operator fun Url.div(path: String) = URLBuilder(this).apply { path(path) }.build()
+operator fun Url.div(path: String) =
+    URLBuilder(this)
+        .apply { appendPathSegments(path.split("/")) }
+        .build()
 operator fun JsonElement.div(key: String) = jsonObject[key]!!
 
 object Piped {

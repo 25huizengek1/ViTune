@@ -172,6 +172,7 @@
     <string name="size">Suurus</string>
     <string name="cached">Vahemälus</string>
     <string name="loudness">Heli tugevus</string>
+    <string name="reload">Laadi uuesti</string>
 
     <string name="view_album">Vaata albumit</string>
     <string name="view_playlist">Vaata Esitusloendi</string>
@@ -237,6 +238,8 @@
     <string name="lyrics_show_system_bars_description">Selle väljalülitamine võimaldab süsteemi tasemel täisekraani</string>
     <string name="pip">PIP</string>
     <string name="pip_description">Automaatne üleminek pildipildis režiimi, kui lülitute taustale</string>
+    <string name="auto_open_player">Ava mängija</string>
+    <string name="auto_open_player_description">Avab mängija automaatselt, kui vajutad laulule</string>
 
     <string name="cache">Vahemälu</string>
     <string name="cache_description">Kui vahemälu täitub, kustutatakse kõige kauem mittekasutatud ressursid</string>
@@ -297,6 +300,8 @@
     <string name="troubleshooting_warning">Hoiatus: kasuta neid nuppe viimases hädas, kui heli esitamine ei toimi</string>
     <string name="reload_app_internals">Laadi rakenduse sisemised andmed uuesti</string>
     <string name="kill_app">Tappa rakendus</string>
+    <string name="show_logs">Vaata silumislogisid</string>
+    <string name="logs">Logid</string>
     <string name="show_troubleshoot_section">Kuva probleemide lahendamise sektsioon</string>
 
     <string name="persistent_queue">Püsiv järjekord</string>
@@ -305,6 +310,8 @@
     <string name="resume_playback_description">Kui ühendatud on juhtmega või Bluetooth-seade</string>
     <string name="stop_when_closed">Peata, kui suletud</string>
     <string name="stop_when_closed_description">Kui sulged rakenduse, peatub muusika esitamine</string>
+    <string name="pause_minimum_volume">Peata minimaalhelil</string>
+    <string name="pause_minimum_volume_description">Mängija peatub, kui seadme helitugevus seatakse nulli</string>
 
     <string name="audio">Audio</string>
     <string name="skip_silence">Jäta vaikuse kohad vahele</string>
@@ -409,6 +416,8 @@
     <string name="reverb_medium_hall">Keskmine saal</string>
     <string name="reverb_large_hall">Suur saal</string>
     <string name="reverb_plate">Plaat</string>
+
+    <string name="tabs">Kaardid</string>
 
     <plurals name="format_reset_blacklist_description">
         <item quantity="one">Eemalda %1$s laul mustast nimekirjast</item>

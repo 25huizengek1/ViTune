@@ -239,6 +239,8 @@
     <string name="lyrics_show_system_bars_description">Desactivar esto habilita la pantalla completa en todo el sistema</string>
     <string name="pip">Pantalla en pantalla (PIP)</string>
     <string name="pip_description">Cambia automáticamente al modo Pantalla en pantalla al cambiar al segundo plano</string>
+    <string name="auto_open_player">Abrir reproductor</string>
+    <string name="auto_open_player_description">Expandir automáticamente el reproductor al tocar una canción</string>
 
     <string name="cache">Caché</string>
     <string name="cache_description">Cuando la caché se queda sin espacio, se eliminan los recursos a los que no se ha accedido durante más tiempo</string>
@@ -309,6 +311,8 @@
     <string name="resume_playback_description">Cuando se conecta un dispositivo con cable o Bluetooth</string>
     <string name="stop_when_closed">Detener al cerrar</string>
     <string name="stop_when_closed_description">Cuando cierras la aplicación, la música deja de reproducirse</string>
+    <string name="pause_minimum_volume">Pausar con volumen mínimo</string>
+    <string name="pause_minimum_volume_description">Pausar el reproductor cuando el volumen esté en cero</string>
 
     <string name="audio">Audio</string>
     <string name="skip_silence">Saltar silencio</string>

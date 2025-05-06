@@ -173,6 +173,7 @@
     <string name="size">大小</string>
     <string name="cached">已缓存</string>
     <string name="loudness">响度</string>
+    <string name="reload">重新加载</string>
 
     <string name="view_album">查看专辑</string>
     <string name="view_playlist">查看播放列表</string>
@@ -238,6 +239,8 @@
     <string name="lyrics_show_system_bars_description">关闭此选项可启用系统级全屏</string>
     <string name="pip">PIP</string>
     <string name="pip_description">切换到后台时自动切换到画中画模式</string>
+    <string name="auto_open_player">打开播放器</string>
+    <string name="auto_open_player_description">点击歌曲时自动展开播放器</string>
 
     <string name="cache">缓存</string>
     <string name="cache_description">当缓存空间耗尽时，最久未被访问的资源将被清除</string>
@@ -308,6 +311,8 @@
     <string name="resume_playback_description">当连接有线或蓝牙设备时</string>
     <string name="stop_when_closed">关闭时停止播放</string>
     <string name="stop_when_closed_description">当你关闭应用时，音乐停止播放</string>
+    <string name="pause_minimum_volume">静音时暂停</string>
+    <string name="pause_minimum_volume_description">当设备音量设为零时暂停播放</string>
 
     <string name="audio">音频</string>
     <string name="skip_silence">跳过静音</string>
@@ -412,6 +417,8 @@
     <string name="reverb_medium_hall">中等大厅</string>
     <string name="reverb_large_hall">大厅</string>
     <string name="reverb_plate">板式混响</string>
+
+    <string name="tabs">标签页</string>
 
     <plurals name="format_reset_blacklist_description">
         <item quantity="other">从黑名单中移除所有 %1$s 首歌曲</item>

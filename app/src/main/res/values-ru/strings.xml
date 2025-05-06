@@ -172,6 +172,7 @@
     <string name="size">Размер</string>
     <string name="cached">В кэше</string>
     <string name="loudness">Громкость</string>
+    <string name="reload">Перезагрузить</string>
 
     <string name="view_album">Просмотр альбома</string>
     <string name="view_playlist">Просмотр плейлиста</string>
@@ -237,6 +238,8 @@
     <string name="lyrics_show_system_bars_description">Отключение этого параметра включает полноэкранный режим на уровне системы</string>
     <string name="pip">PIP</string>
     <string name="pip_description">Автоматически переходит в режим "Картинка в картинке" при переключении в фоновый режим</string>
+    <string name="auto_open_player">Открыть плеер</string>
+    <string name="auto_open_player_description">Автоматически разворачивать плеер при нажатии на песню</string>
 
     <string name="cache">Кэш</string>
     <string name="cache_description">Когда кэш заканчивается, ресурсы, которые не использовались дольше всего, очищаются</string>
@@ -297,6 +300,8 @@
     <string name="troubleshooting_warning">Внимание: используйте эти кнопки в последнюю очередь, когда воспроизведение аудио не работает</string>
     <string name="reload_app_internals">Перезагрузить внутренности приложения</string>
     <string name="kill_app">Завершить приложение</string>
+    <string name="show_logs">Показать журналы отладки</string>
+    <string name="logs">Журналы</string>
     <string name="show_troubleshoot_section">Показать раздел устранения неполадок</string>
 
     <string name="persistent_queue">Постоянная очередь</string>
@@ -305,6 +310,8 @@
     <string name="resume_playback_description">Когда подключено проводное или Bluetooth-устройство</string>
     <string name="stop_when_closed">Остановить при закрытии</string>
     <string name="stop_when_closed_description">Когда вы закрываете приложение, музыка перестает играть</string>
+    <string name="pause_minimum_volume">Пауза при минимальной громкости</string>
+    <string name="pause_minimum_volume_description">При установке громкости устройства на ноль воспроизведение приостанавливается</string>
 
     <string name="audio">Аудио</string>
     <string name="skip_silence">Пропускать тишину</string>
@@ -409,6 +416,8 @@
     <string name="reverb_medium_hall">Средний зал</string>
     <string name="reverb_large_hall">Большой зал</string>
     <string name="reverb_plate">Пластина</string>
+
+    <string name="tabs">Вкладки</string>
 
     <plurals name="format_reset_blacklist_description">
         <item quantity="one">Удалить %1$s песню из черного списка</item>

@@ -29,6 +29,7 @@
 
     <string name="favorites">お気に入り</string>
     <string name="offline">オフライン</string>
+    <string name="history">履歴</string>
     <string name="overview">概要</string>
     <string name="library">ライブラリー</string>
     <string name="discover">見つける</string>
@@ -172,6 +173,7 @@
     <string name="size">サイズ</string>
     <string name="cached">キャッシュした</string>
     <string name="loudness">ラウンドネス</string>
+    <string name="reload">再読み込み</string>
 
     <string name="view_album">アルバムを見る</string>
     <string name="view_playlist">プレイリストを見る</string>
@@ -233,6 +235,12 @@
     <string name="swipe_to_remove_item_description">スワイプして、キューからアイテムを削除します</string>
     <string name="lyrics_keep_screen_awake">画面を起動したままにする(歌詞)</string>
     <string name="lyrics_keep_screen_awake_description">歌詞が表示されているときに、画面を起動したままにします</string>
+    <string name="lyrics_show_system_bars">システムバーを表示（歌詞）</string>
+    <string name="lyrics_show_system_bars_description">これをオフにすると、システム全体のフルスクリーンが有効になります</string>
+    <string name="pip">PIP</string>
+    <string name="pip_description">バックグラウンドに切り替えたときに自動的にピクチャーインピクチャーモードに切り替えます</string>
+    <string name="auto_open_player">プレイヤーを開く</string>
+    <string name="auto_open_player_description">曲をタップしたときにプレイヤーを自動的に展開します</string>
 
     <string name="cache">キャッシュ</string>
     <string name="cache_description">キャッシュが保存できなくなったら、古いキャッシュから削除します</string>
@@ -241,6 +249,8 @@
     <string name="format_cache_space_used">%1$s 使用中</string>
     <string name="format_cache_space_used_percentage">%1$s 使用中 (%2$s%%)</string>
     <string name="song_cache">曲のキャッシュ</string>
+    <string name="pause_song_cache">キャッシュの一時停止</string>
+    <string name="pause_song_cache_description">新しい曲がキャッシュに追加されるのを一時的に停止します</string>
     <string name="database">データベース</string>
 
     <string name="cleanup">削除</string>
@@ -270,6 +280,8 @@
     <string name="format_clear_search_history_amount">%1$s 個の検索履歴を削除します</string>
     <string name="empty_history">履歴はありません</string>
     <string name="built_in_playlists">内臓プレイリスト</string>
+    <string name="auto_sync_playlists">プレイリストを自動同期</string>
+    <string name="auto_sync_playlists_description">YouTube から保存されたプレイリストを開いたときに自動的に同期します</string>
     <string name="top_list_length">Top リストの長さ</string>
     <string name="top_list_length_description">My top のプレイリストの長さを設定します</string>
 
@@ -289,6 +301,8 @@
     <string name="troubleshooting_warning">注意: これらのボタンは、アプリがエラーが発生した時の最終手段として使用してください</string>
     <string name="reload_app_internals">アプリをリロードする</string>
     <string name="kill_app">アプリを終了する</string>
+    <string name="show_logs">デバッグログを表示</string>
+    <string name="logs">ログ</string>
     <string name="show_troubleshoot_section">トラブルシューティングを表示する</string>
 
     <string name="persistent_queue">アプリが閉じてもキューを残す</string>
@@ -297,6 +311,8 @@
     <string name="resume_playback_description">有線またはBluetoothデバイスが接続された場合に、再生を再開します</string>
     <string name="stop_when_closed">再生を停止する</string>
     <string name="stop_when_closed_description">アプリが終了したら、再生を停止します</string>
+    <string name="pause_minimum_volume">最小音量で一時停止</string>
+    <string name="pause_minimum_volume_description">デバイスの音量をゼロにしたときにプレイヤーを一時停止します</string>
 
     <string name="audio">オーディオ</string>
     <string name="skip_silence">無音部分をスキップ</string>
@@ -314,6 +330,11 @@
     <string name="bass_boost_description">低音域を強化します</string>
     <string name="bass_boost_level">バスブーストレベル</string>
     <string name="bass_boost_level_description">自己責任でブーストレベルを0から1000の間で指定してください</string>
+    <string name="sponsor_block">スポンサー ブロック</string>
+    <string name="sponsor_block_description">Sponsorblock API のデータを使用してスポンサーや無関係なコンテンツをブロックします</string>
+    <string name="reverb">リバーブ</string>
+    <string name="audio_focus">オーディオフォーカス</string>
+    <string name="audio_focus_description">プレイヤーがシステム全体のオーディオ（メディア）フォーカスを要求するかどうか</string>
     <string name="equalizer_description">システムイコライザーを開く</string>
 
     <string name="filter_placeholder">フィルター</string>
@@ -366,6 +387,8 @@
     <string name="swipe_to_hide_song_description">曲を左にスワイプすると、データベースとキャッシュから削除されます</string>
     <string name="swipe_to_hide_song_confirm">スワイプを確認する</string>
     <string name="swipe_to_hide_song_confirm_description">スワイプして削除する場合は、確認する必要があります</string>
+    <string name="hide_explicit">露骨な曲を非表示にする</string>
+    <string name="hide_explicit_description">アプリ全体で露骨な曲をすべて非表示にします。この設定が有効な場合、プレイヤーは露骨な曲をスキップします。</string>
 
     <string name="version">バージョン</string>
     <string name="check_new_version">アップデートを確認する</string>
@@ -394,6 +417,8 @@
     <string name="reverb_medium_hall">Medium hall</string>
     <string name="reverb_large_hall">Large hall</string>
     <string name="reverb_plate">Plate</string>
+
+    <string name="tabs">タブ</string>
 
     <plurals name="format_reset_blacklist_description">
         <item quantity="other">ブラックリストから %1$s の曲をすべて削除する</item>

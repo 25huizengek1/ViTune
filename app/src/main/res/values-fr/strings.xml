@@ -311,6 +311,8 @@
     <string name="resume_playback_description">Lorsqu\'un appareil filaire ou Bluetooth est connecté</string>
     <string name="stop_when_closed">Arrêter quand fermée</string>
     <string name="stop_when_closed_description">Lorsque vous fermez l\'application, la musique s\'arrête de jouer</string>
+    <string name="pause_minimum_volume">Mettre en pause au volume minimum</string>
+    <string name="pause_minimum_volume_description">Mettre le lecteur en pause quand le volume est à zéro</string>
 
     <string name="audio">Audio</string>
     <string name="skip_silence">Ignorer le silence</string>

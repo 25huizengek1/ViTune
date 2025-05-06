@@ -29,6 +29,7 @@
 
     <string name="favorites">Favoriler</string>
     <string name="offline">Çevrimdışı</string>
+    <string name="history">Geçmiş</string>
     <string name="overview">Genel Bakış</string>
     <string name="library">Kütüphane</string>
     <string name="discover">Keşfet</string>
@@ -96,6 +97,7 @@
     <string name="hide_from_quick_picks">\"Hızlı seçimler\" den gizle</string>
     <string name="confirm_hide_song">Bu şarkıyı gerçekten gizlemek istiyor musun? Oynatma süresi ve önbelleği silinecek.\nBu eylem geri alınamaz.</string>
     <string name="confirm_delete_playlist">Bu oynatma listesini gerçekten silmek istiyor musunuz?</string>
+    <string name="confirm_delete_piped_session">Bu Piped oturumunu silmek istediğinizden emin misiniz?</string>
 
     <string name="other_versions">Diğer sürümler</string>
     <string name="no_alternative_version">Bu albümün alternatif bir sürümü yok</string>
@@ -107,6 +109,7 @@
 
     <string name="moods_and_genres">Ruh halleri ve türleri</string>
     <string name="new_released_albums">Yeni çıkan albümler</string>
+    <string name="more">Daha fazla</string>
 
     <string name="artist_has_no_albums">Bu sanatçı henüz bir albüm çıkarmadı</string>
     <string name="artist_has_no_singles">Bu sanatçı henüz bir single yayımlamadı</string>
@@ -170,6 +173,7 @@
     <string name="size">Boyut</string>
     <string name="cached">Önbelleğe Alındı</string>
     <string name="loudness">Ses yüksekliği</string>
+    <string name="reload">Yeniden yükle</string>
 
     <string name="view_album">Albümü görüntüle</string>
     <string name="view_playlist">Oynatma listesini görüntüle</string>
@@ -229,6 +233,14 @@
     <string name="show_like_button_description">Beğen düğmesini doğrudan oynatıcıda göster</string>
     <string name="swipe_to_remove_item">Ürünü kaldırmak için kaydırın</string>
     <string name="swipe_to_remove_item_description">Kuyruktan bir öğeyi kaldırmak için sola kaydırın</string>
+    <string name="lyrics_keep_screen_awake">Ekranı açık tut (şarkı sözleri)</string>
+    <string name="lyrics_keep_screen_awake_description">Şarkı sözleri gösterilirken ekranın açık kalmasını sağlar</string>
+    <string name="lyrics_show_system_bars">Sistem çubuklarını göster (şarkı sözleri)</string>
+    <string name="lyrics_show_system_bars_description">Bunu kapatmak, sistem genelinde tam ekran modunu etkinleştirir</string>
+    <string name="pip">PIP</string>
+    <string name="pip_description">Arka plana geçerken otomatik olarak Resim İçinde Resim moduna geçer</string>
+    <string name="auto_open_player">Oynatıcıyı aç</string>
+    <string name="auto_open_player_description">Bir şarkıya dokunulduğunda oynatıcıyı otomatik olarak genişletir</string>
 
     <string name="cache">Önbellek</string>
     <string name="cache_description">Önbellekte yer kalmadığında, en uzun süre erişilemeyen kaynaklar temizlenir</string>
@@ -237,6 +249,8 @@
     <string name="format_cache_space_used">%1$s kullanıldı</string>
     <string name="format_cache_space_used_percentage">%1$s kullanıldı (%2$s%%)</string>
     <string name="song_cache">Şarkı önbelleği</string>
+    <string name="pause_song_cache">Önbelleği duraklat</string>
+    <string name="pause_song_cache_description">Yeni şarkıların önbelleğe eklenmesini geçici olarak duraklatır</string>
     <string name="database">Veritabanı</string>
 
     <string name="cleanup">Temizleme</string>
@@ -266,6 +280,8 @@
     <string name="format_clear_search_history_amount">%1$s arama sorgusunu sil</string>
     <string name="empty_history">Geçmiş boş</string>
     <string name="built_in_playlists">Yerleşik oynatma listeleri</string>
+    <string name="auto_sync_playlists">Listeleri otomatik senkronize et</string>
+    <string name="auto_sync_playlists_description">Kaydedilen YouTube oynatma listelerini açtığınızda otomatik olarak senkronize eder</string>
     <string name="top_list_length">Üst liste uzunluğu</string>
     <string name="top_list_length_description">\'En iyi x\' oynatma listesinin uzunluğunu sınırlar</string>
 
@@ -285,6 +301,8 @@
     <string name="troubleshooting_warning">Dikkat: ses ıoynatma başarısız olduğunda bu düğmeleri son çare olarak kullanın</string>
     <string name="reload_app_internals">Uygulama dahili numaralarını yeniden yükle</string>
     <string name="kill_app">Uygulamayı sonlandır</string>
+    <string name="show_logs">Hata ayıklama günlüklerini görüntüle</string>
+    <string name="logs">Günlükler</string>
     <string name="show_troubleshoot_section">Sorun giderme bölümünü göster</string>
 
     <string name="persistent_queue">Kalıcı kuyruk</string>
@@ -293,6 +311,8 @@
     <string name="resume_playback_description">Kablolu veya Bluetooth cihazı bağlandığında</string>
     <string name="stop_when_closed">Kapalıyken durdur</string>
     <string name="stop_when_closed_description">Uygulamayı kapattığınızda müzik oynatmayı durdurur</string>
+    <string name="pause_minimum_volume">Ses minimumdayken duraklat</string>
+    <string name="pause_minimum_volume_description">Cihaz sesini sıfıra ayarladığınızda oynatıcıyı duraklatır</string>
 
     <string name="audio">Ses</string>
     <string name="skip_silence">Sessizliği atla</string>
@@ -310,6 +330,11 @@
     <string name="bass_boost_description">Dinleme deneyimini iyileştirmek için düşük frekansları artırın</string>
     <string name="bass_boost_level">Bas artışı seviyesi</string>
     <string name="bass_boost_level_description">Düşük frekansları artırma seviyesi (0 -1000); kendi riski altında kullanın!</string>
+    <string name="sponsor_block">Sponsor engelleyici</string>
+    <string name="sponsor_block_description">Sponsorlu/konu dışı içeriği Sponsorblock API verilerini kullanarak engeller</string>
+    <string name="reverb">Yankı</string>
+    <string name="audio_focus">Ses odağı</string>
+    <string name="audio_focus_description">Oynatıcının sistem genelinde ses (medya) odağı isteyip istemeyeceğini belirler</string>
     <string name="equalizer_description">Sistem ekolayzırı ile etkileşim</string>
 
     <string name="filter_placeholder">Filtrele…</string>
@@ -338,6 +363,7 @@
     <string name="piped_sessions">Piped oturumları</string>
     <string name="custom_instance">Özel Örnek Kullan</string>
     <string name="base_api_url">Örnek API Bağlantısı</string>
+    <string name="piped_session_created_successfully">Piped oturumu başarıyla oluşturuldu</string>
 
     <string name="seek_bar_style">Bar tarzı ara</string>
     <string name="static_seek_bar_name">Statik</string>
@@ -361,6 +387,8 @@
     <string name="swipe_to_hide_song_description">Bir şarkıyı sola kaydırdığınızda, veritabanından ve önbellekten kaldırılır</string>
     <string name="swipe_to_hide_song_confirm">Şarkıyı gizlemek için kaydırmayı onayla</string>
     <string name="swipe_to_hide_song_confirm_description">Gizlemek için kaydırdığınızda önce onaylamanız gerekir</string>
+    <string name="hide_explicit">Uyarı içeren şarkıları gizle</string>
+    <string name="hide_explicit_description">Tüm uygulama genelinde uyarı içeren şarkıları gizler. Bu ayar etkinleştirildiğinde oynatıcı da bu şarkıları atlayacaktır.</string>
 
     <string name="version">Sürüm</string>
     <string name="check_new_version">Güncellemeleri kontrol edin</string>
@@ -389,6 +417,8 @@
     <string name="reverb_medium_hall">Medium hall</string>
     <string name="reverb_large_hall">Large hall</string>
     <string name="reverb_plate">Plate</string>
+
+    <string name="tabs">Sekmeler</string>
 
     <plurals name="format_reset_blacklist_description">
         <item quantity="one">%1$s şarkıyı kara listeden kaldır</item>

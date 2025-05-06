@@ -172,6 +172,7 @@
     <string name="size">Veličina</string>
     <string name="cached">Keširano</string>
     <string name="loudness">Jačina zvuka</string>
+    <string name="reload">Ponovi učitavanje</string>
 
     <string name="view_album">Pogledaj album</string>
     <string name="view_playlist">Pogledaj plejlistu</string>
@@ -237,6 +238,8 @@
     <string name="lyrics_show_system_bars_description">Isključivanje ove opcije omogućava prikaz na celom ekranu</string>
     <string name="pip">PIP</string>
     <string name="pip_description">Automatski prelazi u režim Slika-u-Slici kada aplikacija pređe u pozadinu</string>
+    <string name="auto_open_player">Otvori plejer</string>
+    <string name="auto_open_player_description">Automatski proširuje plejer kada se dodirne pesma</string>
 
     <string name="cache">Keš</string>
     <string name="cache_description">Kada se keš popuni, resursi koji najduže nisu korišćeni biće obrisani</string>
@@ -245,6 +248,8 @@
     <string name="format_cache_space_used">%1$s korišćeno</string>
     <string name="format_cache_space_used_percentage">%1$s korišćeno (%2$s%%)</string>
     <string name="song_cache">Keš pesama</string>
+    <string name="pause_song_cache">Pauziraj keš</string>
+    <string name="pause_song_cache_description">Privremeno pauzira dodavanje novih pesama u keš</string>
     <string name="database">Baza podataka</string>
 
     <string name="cleanup">Čišćenje</string>
@@ -295,6 +300,8 @@
     <string name="troubleshooting_warning">Upozorenje: koristite ove dugmiće kao poslednje rešenje kada reprodukcija zvuka ne uspe</string>
     <string name="reload_app_internals">Ponovo učitaj interne funkcije aplikacije</string>
     <string name="kill_app">Zatvori aplikaciju</string>
+    <string name="show_logs">Prikaži logove otklanjanja grešaka</string>
+    <string name="logs">Logovi</string>
     <string name="show_troubleshoot_section">Prikaži sekciju za rešavanje problema</string>
 
     <string name="persistent_queue">Uporni red čekanja</string>
@@ -303,6 +310,8 @@
     <string name="resume_playback_description">Kada je žični ili Bluetooth uređaj povezan</string>
     <string name="stop_when_closed">Zaustavi kada je zatvoreno</string>
     <string name="stop_when_closed_description">Kada zatvorite aplikaciju, muzika prestaje da svira</string>
+    <string name="pause_minimum_volume">Pauziraj pri minimalnom zvuku</string>
+    <string name="pause_minimum_volume_description">Pauzira plejer kada je jačina zvuka podešena na nulu</string>
 
     <string name="audio">Audio</string>
     <string name="skip_silence">Preskoči tišinu</string>
@@ -320,6 +329,8 @@
     <string name="bass_boost_description">Pojačava niske frekvencije za poboljšano iskustvo slušanja</string>
     <string name="bass_boost_level">Nivo pojačanja basa</string>
     <string name="bass_boost_level_description">Nivo (0–1000) pojačanja niskih frekvencija; koristite na sopstveni rizik!</string>
+    <string name="sponsor_block">Sponsorblock</string>
+    <string name="sponsor_block_description">Blokira sponzorisan/nepovezan sadržaj pomoću podataka iz Sponsorblock API-ja</string>
     <string name="reverb">Reverb</string>
     <string name="audio_focus">Fokus na zvuk</string>
     <string name="audio_focus_description">Da li plejer treba da zahteva sistemski fokus na zvuk (medije)</string>
@@ -406,18 +417,23 @@
     <string name="reverb_large_hall">Velika sala</string>
     <string name="reverb_plate">Ploča</string>
 
+    <string name="tabs">Kartice</string>
+
     <plurals name="format_reset_blacklist_description">
         <item quantity="one">Ukloni %1$s pesmu sa crne liste</item>
+        <item quantity="few">Ukloni %1$s pesme sa crne liste</item>
         <item quantity="other">Ukloni sve %1$s pesme sa crne liste</item>
     </plurals>
 
     <plurals name="format_reset_quick_picks_amount">
         <item quantity="one">Obriši %1$s reprodukciju</item>
+        <item quantity="few">Obriši %1$s reprodukcije</item>
         <item quantity="other">Obriši %1$s reprodukcija</item>
     </plurals>
 
     <plurals name="song_count_plural">
         <item quantity="one">%1$d pesma</item>
+        <item quantity="few">%1$d pesme</item>
         <item quantity="other">%1$d pesama</item>
     </plurals>
 </resources>

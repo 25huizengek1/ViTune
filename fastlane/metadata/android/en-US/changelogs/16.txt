@@ -1,0 +1,1 @@
+* No visible changes. Only patched a critical crash introduced in the latest release.

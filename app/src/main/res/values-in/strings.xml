@@ -29,6 +29,7 @@
 
     <string name="favorites">Favorit</string>
     <string name="offline">Luring</string>
+    <string name="history">Riwayat</string>
     <string name="overview">Gambaran Umum</string>
     <string name="library">Pustaka</string>
     <string name="discover">Jelajahi</string>
@@ -55,6 +56,7 @@
 
     <string name="sleep_timer">Pengatur waktu tidur</string>
     <string name="sleep_timer_ended">Waktu tidur berakhir</string>
+    <string name="sleep_timer_until_song_end">Sampai lagu berakhir</string>
     <string name="stop_sleep_timer_prompt">Apakah Anda ingin menghentikan pengatur waktu tidur?</string>
     <string name="equalizer">Pengatur suara</string>
     <string name="set_sleep_timer">Atur pengatur waktu tidur</string>
@@ -95,6 +97,7 @@
     <string name="hide_from_quick_picks">Sembunyikan dari \"Pilihan Cepat\"</string>
     <string name="confirm_hide_song">Apakah Anda ingin menyembunyikan lagu ini? Waktu pemutaran dan cache-nya akan dihapus.\nTindakan ini tidak dapat diubah.</string>
     <string name="confirm_delete_playlist">Apakah Anda ingin menghapus daftar putar ini?</string>
+    <string name="confirm_delete_piped_session">Apakah Anda benar-benar ingin menghapus sesi Piped ini?</string>
 
     <string name="other_versions">Versi lain</string>
     <string name="no_alternative_version">Album ini tidak memiliki versi alternatif</string>
@@ -106,6 +109,7 @@
 
     <string name="moods_and_genres">Mood dan genre</string>
     <string name="new_released_albums">Album yang baru dirilis</string>
+    <string name="more">Lainnya</string>
 
     <string name="artist_has_no_albums">Artis ini belum merilis album</string>
     <string name="artist_has_no_singles">Artis ini belum merilis singel</string>
@@ -137,6 +141,7 @@
     <string name="related_albums">Album terkait</string>
     <string name="similar_artists">Artis serupa</string>
     <string name="recommended_playlists">Daftar putar yang mungkin Anda sukai</string>
+    <string name="format_subscribers">%s pelanggan</string>
 
     <string name="enter_lyrics">Masukkan lirik</string>
     <string name="no_lyrics_found">Tidak ada trek lirik yang ditemukan</string>
@@ -155,6 +160,8 @@
     <string name="set_lyrics_start_offset_description">Menyesuaikan lirik yang disinkronkan dengan waktu pemutaran saat ini</string>
 
     <string name="playback_speed">Kecepatan pemutaran</string>
+    <string name="playback_pitch">Nada</string>
+    <string name="playback_settings">Kecepatan &amp; nada</string>
     <string name="minimum_speed_value">Mengapa Anda melakukan ini?!</string>
     <string name="volume_boost">Peningkatan volume</string>
     <string name="queue_loop">Antrian loop</string>
@@ -166,6 +173,7 @@
     <string name="size">Ukuran</string>
     <string name="cached">Tercache</string>
     <string name="loudness">Kebisingan</string>
+    <string name="reload">Muat ulang</string>
 
     <string name="view_album">Lihat album</string>
     <string name="view_playlist">Lihat daftar putar</string>
@@ -225,6 +233,14 @@
     <string name="show_like_button_description">Menampilkan tombol suka di pemutar</string>
     <string name="swipe_to_remove_item">Geser untuk menghapus item</string>
     <string name="swipe_to_remove_item_description">Geser ke kiri untuk menghapus item dari antrean</string>
+    <string name="lyrics_keep_screen_awake">Biarkan layar tetap menyala (lirik)</string>
+    <string name="lyrics_keep_screen_awake_description">Menjaga layar tetap menyala saat lirik ditampilkan</string>
+    <string name="lyrics_show_system_bars">Tampilkan bilah sistem (lirik)</string>
+    <string name="lyrics_show_system_bars_description">Mematikan ini akan mengaktifkan mode layar penuh secara sistem</string>
+    <string name="pip">PIP</string>
+    <string name="pip_description">Secara otomatis beralih ke mode Gambar-dalam-Gambar saat beralih ke latar belakang</string>
+    <string name="auto_open_player">Buka pemutar</string>
+    <string name="auto_open_player_description">Secara otomatis memperluas pemutar saat mengetuk lagu</string>
 
     <string name="cache">Cache</string>
     <string name="cache_description">Ketika cache kehabisan ruang, sumber daya yang tidak diakses dalam waktu lama akan dihapus</string>
@@ -233,6 +249,8 @@
     <string name="format_cache_space_used">%1$s digunakan</string>
     <string name="format_cache_space_used_percentage">%1$s digunakan (%2$s%%)</string>
     <string name="song_cache">Cache lagu</string>
+    <string name="pause_song_cache">Jeda cache</string>
+    <string name="pause_song_cache_description">Menjeda sementara penambahan lagu baru ke dalam cache</string>
     <string name="database">Database</string>
 
     <string name="cleanup">Pembersihan</string>
@@ -262,6 +280,8 @@
     <string name="format_clear_search_history_amount">Hapus %1$s kueri pencarian</string>
     <string name="empty_history">Riwayat kosong</string>
     <string name="built_in_playlists">Daftar putar bawaan</string>
+    <string name="auto_sync_playlists">Sinkronisasi daftar putar otomatis</string>
+    <string name="auto_sync_playlists_description">Menyinkronkan daftar putar yang disimpan dari YouTube secara otomatis saat Anda membukanya</string>
     <string name="top_list_length">Panjang daftar teratas</string>
     <string name="top_list_length_description">Batas panjang daftar putar \'x teratas saya\'</string>
 
@@ -281,6 +301,8 @@
     <string name="troubleshooting_warning">Peringatan: gunakan tombol ini sebagai tindakan terakhir saat pemutaran audio gagal</string>
     <string name="reload_app_internals">Muat ulang internal aplikasi</string>
     <string name="kill_app">Tutup aplikasi</string>
+    <string name="show_logs">Lihat log debug</string>
+    <string name="logs">Log</string>
     <string name="show_troubleshoot_section">Tampilkan bagian perbaikan masalah</string>
 
     <string name="persistent_queue">Antrian persisten</string>
@@ -289,6 +311,8 @@
     <string name="resume_playback_description">Saat perangkat kabel atau Bluetooth terhubung</string>
     <string name="stop_when_closed">Berhenti saat ditutup</string>
     <string name="stop_when_closed_description">Ketika Anda menutup aplikasi, musik berhenti diputar</string>
+    <string name="pause_minimum_volume">Jeda saat volume minimum</string>
+    <string name="pause_minimum_volume_description">Menjeda pemutar saat volume perangkat diatur ke nol</string>
 
     <string name="audio">Audio</string>
     <string name="skip_silence">Lewati keheningan</string>
@@ -301,10 +325,16 @@
     <string name="loudness_normalization_description">Atur volume ke level tetap</string>
     <string name="loudness_base_gain">Kebisingan dasar</string>
     <string name="loudness_base_gain_description">Peningkatan target untuk normalisasi kebisingan</string>
+    <string name="loudness_normalization_extreme">Nilai volume ekstrem terdeteksi (%s), menonaktifkan normalisasi untuk lagu ini</string>
     <string name="bass_boost">Peningkatan bass</string>
     <string name="bass_boost_description">Boost low frequencies to improve listening experience</string>
     <string name="bass_boost_level">Bass boost level</string>
     <string name="bass_boost_level_description">Level (0–1000) peningkatan frekuensi rendah; gunakan dengan risiko sendiri!</string>
+    <string name="sponsor_block">Sponsorblock</string>
+    <string name="sponsor_block_description">Memblokir konten bersponsor/tidak relevan menggunakan data dari API Sponsorblock</string>
+    <string name="reverb">Gema</string>
+    <string name="audio_focus">Fokus audio</string>
+    <string name="audio_focus_description">Apakah pemutar harus meminta fokus audio (media) secara sistem</string>
     <string name="equalizer_description">Interaksi dengan pengatur suara sistem</string>
 
     <string name="filter_placeholder">Filter…</string>
@@ -312,6 +342,8 @@
     <string name="last_interaction">Terakhir diputar</string>
     <string name="trending">Trending</string>
     <string name="quick_picks_source">Sumber Pilihan Cepat</string>
+    <string name="quick_picks_cache">Cache data pilihan cepat</string>
+    <string name="quick_picks_cache_description">Menyimpan data pilihan cepat ke disk untuk akses offline</string>
 
     <string name="player_layout">Tata letak pemutar</string>
     <string name="classic_player_layout_name">Klasik</string>
@@ -331,6 +363,7 @@
     <string name="piped_sessions">Sesi Piped</string>
     <string name="custom_instance">Gunakan Instansi Kustom</string>
     <string name="base_api_url">URL API Instansi</string>
+    <string name="piped_session_created_successfully">Sesi Piped berhasil dibuat</string>
 
     <string name="seek_bar_style">Gaya bar pencarian</string>
     <string name="static_seek_bar_name">Statis</string>
@@ -354,6 +387,8 @@
     <string name="swipe_to_hide_song_description">Ketika Anda menggeser lagu ke kiri, akan menghapus lagu dari database dan cache</string>
     <string name="swipe_to_hide_song_confirm">Konfirmasi gesek untuk menyembunyikan lagu</string>
     <string name="swipe_to_hide_song_confirm_description">Ketika Anda menggeser untuk menyembunyikan, Anda harus mengkonfirmasi terlebih dahulu</string>
+    <string name="hide_explicit">Sembunyikan lagu eksplisit</string>
+    <string name="hide_explicit_description">Menyembunyikan semua lagu eksplisit di seluruh aplikasi. Pemutar juga akan melewati lagu eksplisit jika menemukan satu dan pengaturan ini aktif.</string>
 
     <string name="version">Versi</string>
     <string name="check_new_version">Periksa pembaruan</string>
@@ -366,12 +401,24 @@
     <string name="dynamic_thumbnails">Thumbnail dinamis</string>
     <string name="max_dynamic_thumbnail_size">Ukuran maksimal thumbnail dinamis</string>
     <string name="max_dynamic_thumbnail_size_description">Ukuran maksimal thumbnail saat thumbnail dinamis digunakan</string>
+
+    <string name="hourly">Setiap jam</string>
+    <string name="daily">Harian</string>
+    <string name="weekly">Mingguan</string>
+    <string name="version_check">Periksa pembaruan secara otomatis</string>
+
+    <string name="skip_on_error">Lewati otomatis</string>
+    <string name="skip_on_error_description">Melewati lagu saat ini jika terjadi kesalahan.</string>
+    <string name="skip_on_error_notification">%s dilewati karena kesalahan</string>
+    <string name="skip_on_error_notification_unknown_song">Lagu saat ini dilewati karena kesalahan</string>
     <string name="reverb_small_room">Small room</string>
     <string name="reverb_medium_room">Medium room</string>
     <string name="reverb_large_room">Large room</string>
     <string name="reverb_medium_hall">Medium hall</string>
     <string name="reverb_large_hall">Large hall</string>
     <string name="reverb_plate">Plate</string>
+
+    <string name="tabs">Tab</string>
 
     <plurals name="format_reset_blacklist_description">
         <item quantity="other">Hapus semua %1$s lagu dari daftar hitam</item>

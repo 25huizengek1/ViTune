@@ -239,6 +239,8 @@
     <string name="lyrics_show_system_bars_description">Desactivar això habilita la pantalla completa a tot el sistema</string>
     <string name="pip">Pantalla en pantalla (PIP)</string>
     <string name="pip_description">Canvia automàticament al mode Pantalla en pantalla en canviar al segon pla</string>
+    <string name="auto_open_player">Obre el reproductor</string>
+    <string name="auto_open_player_description">Obre automàticament el reproductor en tocar una cançó</string>
 
     <string name="cache">Memòria cau</string>
     <string name="cache_description">Quan la memòria cau es queda sense espai, s\'eliminen els recursos als quals no s\'ha accedit durant més temps</string>
@@ -309,6 +311,8 @@
     <string name="resume_playback_description">Quan es connecta un dispositiu amb cable o Bluetooth</string>
     <string name="stop_when_closed">Aturar al tancar</string>
     <string name="stop_when_closed_description">Quan tanqueu l\'aplicació, la música deixarà de reproduir-se</string>
+    <string name="pause_minimum_volume">Pausa amb volum mínim</string>
+    <string name="pause_minimum_volume_description">Pausa el reproductor quan el volum estigui a zero</string>
 
     <string name="audio">Àudio</string>
     <string name="skip_silence">Saltar silenci</string>

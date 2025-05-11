@@ -239,6 +239,8 @@
     <string name="lyrics_show_system_bars_description">Desativar isso ativa a tela inteira em todo o sistema</string>
     <string name="pip">PIP</string>
     <string name="pip_description">Muda automaticamente para o modo Picture-In-Picure ao minimizar o app</string>
+    <string name="auto_open_player">Abrir player</string>
+    <string name="auto_open_player_description">Expandir o player automaticamente ao tocar em uma música</string>
 
     <string name="cache">Downloads</string>
     <string name="cache_description">Quando o espaço de download acabar, os recursos que não forem usados pelo maior tempo, serão removidos</string>
@@ -309,6 +311,8 @@
     <string name="resume_playback_description">Quando um dispositivo com fio ou Bluetooth for conectado</string>
     <string name="stop_when_closed">Parar ao fechar</string>
     <string name="stop_when_closed_description">Quando você fechar o app, a música para de tocar</string>
+    <string name="pause_minimum_volume">Pausar com volume mínimo</string>
+    <string name="pause_minimum_volume_description">Pausar o player quando o volume do dispositivo for zero</string>
 
     <string name="audio">Áudio</string>
     <string name="skip_silence">Pular silêncio</string>

@@ -239,7 +239,9 @@
     <string name="lyrics_show_system_bars_description">Das Ausschalten dieser Funktion ermöglicht die systemweite Vollbilddarstellung</string>
     <string name="pip">Bild-in-Bild</string>
     <string name="pip_description">Wechselt beim Umschalten auf den Hintergrund automatisch in den Bild-in-Bild-Modus</string>
-    
+    <string name="auto_open_player">Player öffnen</string>
+    <string name="auto_open_player_description">Player automatisch erweitern, wenn ein Lied abgespielt wird</string>
+
     <string name="cache">Cache</string>
     <string name="cache_description">Wenn der Platz im Cache voll ist, werden die Ressourcen, auf die am längsten nicht mehr zugegriffen wurde, gelöscht.</string>
     <string name="image_cache">Bild-Cache</string>
@@ -309,6 +311,8 @@
     <string name="resume_playback_description">Wenn ein kabelgebundenes oder Bluetooth-Gerät angeschlossen ist</string>
     <string name="stop_when_closed">Anhalten wenn geschlossen</string>
     <string name="stop_when_closed_description">Wenn Sie die App schließen, wird die Musik nicht mehr abgespielt</string>
+    <string name="pause_minimum_volume">Bei minimaler Lautstärke pausieren</string>
+    <string name="pause_minimum_volume_description">Player pausieren, wenn die Lautstärke auf null gesetzt wird</string>
 
     <string name="audio">Audio</string>
     <string name="skip_silence">Stille überspringen</string>

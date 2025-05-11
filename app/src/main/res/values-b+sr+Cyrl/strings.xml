@@ -172,6 +172,7 @@
     <string name="size">Величина</string>
     <string name="cached">Кеширано</string>
     <string name="loudness">Јачина звука</string>
+    <string name="reload">Понови учитавање</string>
 
     <string name="view_album">Погледај албум</string>
     <string name="view_playlist">Погледај плејлисту</string>
@@ -237,6 +238,8 @@
     <string name="lyrics_show_system_bars_description">Искључивање ове опције омогућава приказ на целом екрану</string>
     <string name="pip">PIP</string>
     <string name="pip_description">Аутоматски прелази у режим Слика-у-Слици када апликација пређе у позадину</string>
+    <string name="auto_open_player">Отвори плејер</string>
+    <string name="auto_open_player_description">Аутоматски проширује плејер када се додирне песма</string>
 
     <string name="cache">Кеш</string>
     <string name="cache_description">Када се кеш попуни, ресурси који најдуже нису коришћени биће обрисани</string>
@@ -245,6 +248,8 @@
     <string name="format_cache_space_used">%1$s коришћено</string>
     <string name="format_cache_space_used_percentage">%1$s коришћено (%2$s%%)</string>
     <string name="song_cache">Кеш песама</string>
+    <string name="pause_song_cache">Паузирај кеш</string>
+    <string name="pause_song_cache_description">Привремено паузира додавање нових песама у кеш</string>
     <string name="database">База података</string>
 
     <string name="cleanup">Чишћење</string>
@@ -295,6 +300,8 @@
     <string name="troubleshooting_warning">Упозорење: користите ове дугмиће као последње решење када репродукција звука не успе</string>
     <string name="reload_app_internals">Поново учитај интерне функције апликације</string>
     <string name="kill_app">Затвори апликацију</string>
+    <string name="show_logs">Прикажи логове отклањања грешака</string>
+    <string name="logs">Логови</string>
     <string name="show_troubleshoot_section">Прикажи секцију за решавање проблема</string>
 
     <string name="persistent_queue">Упорни ред чекања</string>
@@ -303,6 +310,8 @@
     <string name="resume_playback_description">Када је жични или Bluetooth уређај повезан</string>
     <string name="stop_when_closed">Заустави када је затворено</string>
     <string name="stop_when_closed_description">Када затворите апликацију, музика престаје да свира</string>
+    <string name="pause_minimum_volume">Паузирај при минималном звуку</string>
+    <string name="pause_minimum_volume_description">Паузира плејер када је јачина звука подешена на нулу</string>
 
     <string name="audio">Аудио</string>
     <string name="skip_silence">Прескочи тишину</string>
@@ -320,6 +329,8 @@
     <string name="bass_boost_description">Појачава ниске фреквенције за побољшано искуство слушања</string>
     <string name="bass_boost_level">Ниво појачања баса</string>
     <string name="bass_boost_level_description">Ниво (0–1000) појачања ниских фреквенција; користите на сопствени ризик!</string>
+    <string name="sponsor_block">Спонзорблок</string>
+    <string name="sponsor_block_description">Блокира спонзорисан/неприкладан садржај помоћу података из Sponsorblock API-ја</string>
     <string name="reverb">Реверб</string>
     <string name="audio_focus">Фокус на звук</string>
     <string name="audio_focus_description">Да ли плејер треба да захтева системски фокус на звук (медије)</string>
@@ -406,18 +417,23 @@
     <string name="reverb_large_hall">Велика сала</string>
     <string name="reverb_plate">Плоча</string>
 
+    <string name="tabs">Картице</string>
+
     <plurals name="format_reset_blacklist_description">
         <item quantity="one">Уклони %1$s песму са црне листе</item>
+        <item quantity="few">Уклони %1$s песме са црне листе</item>
         <item quantity="other">Уклони све %1$s песме са црне листе</item>
     </plurals>
 
     <plurals name="format_reset_quick_picks_amount">
         <item quantity="one">Обриши %1$s репродукцију</item>
+        <item quantity="few">Обриши %1$s репродукције</item>
         <item quantity="other">Обриши %1$s репродукција</item>
     </plurals>
 
     <plurals name="song_count_plural">
         <item quantity="one">%1$d песма</item>
+        <item quantity="few">%1$d песме</item>
         <item quantity="other">%1$d песама</item>
     </plurals>
 </resources>

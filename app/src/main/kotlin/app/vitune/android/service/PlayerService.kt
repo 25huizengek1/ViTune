@@ -823,23 +823,62 @@ class PlayerService : InvincibleService(), Player.Listener, PlaybackStatsListene
     }
 
     private fun maybeShowSongCoverInLockScreen() = handler.post {
-        val bitmap = if (isAtLeastAndroid13 || AppearancePreferences.isShowingThumbnailInLockscreen)
-            bitmapProvider.bitmap else null
+        val bitmap = if (isAtLeastAndroid13 || AppearancePreferences.isShowingThumbnailInLockscreen) {
+            bitmapProvider.bitmap?.let { originalBitmap ->
+                // Check if bitmap is recycled before using it
+                if (originalBitmap.isRecycled) {
+                    null
+                } else {
+                    // Create a defensive copy to avoid race conditions
+                    try {
+                        originalBitmap.copy(originalBitmap.config ?: Bitmap.Config.ARGB_8888, false)
+                    } catch (e: Exception) {
+                        // If copying fails (e.g., bitmap got recycled during copy), return null
+                        null
+                    }
+                }
+            }
+        } else null
+
         val uri = player.mediaMetadata.artworkUri?.toString()?.thumbnail(512)
 
-        metadataBuilder.putBitmap(MediaMetadata.METADATA_KEY_ART, bitmap)
-        metadataBuilder.putString(MediaMetadata.METADATA_KEY_ART_URI, uri)
+        // Only proceed if we have a valid bitmap or if we're explicitly setting null
+        try {
+            metadataBuilder.putBitmap(MediaMetadata.METADATA_KEY_ART, bitmap)
+            metadataBuilder.putString(MediaMetadata.METADATA_KEY_ART_URI, uri)
 
-        metadataBuilder.putBitmap(MediaMetadata.METADATA_KEY_ALBUM_ART, bitmap)
-        metadataBuilder.putString(MediaMetadata.METADATA_KEY_ALBUM_ART_URI, uri)
+            metadataBuilder.putBitmap(MediaMetadata.METADATA_KEY_ALBUM_ART, bitmap)
+            metadataBuilder.putString(MediaMetadata.METADATA_KEY_ALBUM_ART_URI, uri)
 
-        if (isAtLeastAndroid13 && player.currentMediaItemIndex == 0) metadataBuilder.putText(
-            MediaMetadata.METADATA_KEY_TITLE,
-            "${player.mediaMetadata.title} "
-        )
+            if (isAtLeastAndroid13 && player.currentMediaItemIndex == 0) metadataBuilder.putText(
+                MediaMetadata.METADATA_KEY_TITLE,
+                "${player.mediaMetadata.title} "
+            )
 
-        mediaSession.setMetadata(metadataBuilder.build())
+            mediaSession.setMetadata(metadataBuilder.build())
+        } catch (e: IllegalArgumentException) {
+            // Handle the case where bitmap might still be recycled
+            Log.w(TAG, "Failed to set metadata with bitmap: ${e.message}")
+            // Retry without bitmap
+            try {
+                metadataBuilder.putBitmap(MediaMetadata.METADATA_KEY_ART, null)
+                metadataBuilder.putString(MediaMetadata.METADATA_KEY_ART_URI, uri)
+                metadataBuilder.putBitmap(MediaMetadata.METADATA_KEY_ALBUM_ART, null)
+                metadataBuilder.putString(MediaMetadata.METADATA_KEY_ALBUM_ART_URI, uri)
+
+                if (isAtLeastAndroid13 && player.currentMediaItemIndex == 0) metadataBuilder.putText(
+                    MediaMetadata.METADATA_KEY_TITLE,
+                    "${player.mediaMetadata.title} "
+                )
+
+                mediaSession.setMetadata(metadataBuilder.build())
+            } catch (e: Exception) {
+                Log.e(TAG, "Failed to set metadata even without bitmap", e)
+            }
+        }
     }
+
+
 
     private fun maybeResumePlaybackWhenDeviceConnected() {
         if (!isAtLeastAndroid6) return

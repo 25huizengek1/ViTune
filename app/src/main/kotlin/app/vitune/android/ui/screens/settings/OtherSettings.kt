@@ -175,6 +175,14 @@ fun OtherSettings() {
                 onCheckedChange = { DataPreferences.shouldCacheQuickPicks = it }
             )
         }
+        SettingsGroup(title = stringResource(R.string.retrospective)) {
+            SwitchSettingsEntry(
+                title = stringResource(R.string.enable_retrospective_all_time),
+                text = stringResource(R.string.enable_retrospective_all_time_description),
+                isChecked = DataPreferences.showRetrospectiveAllYear,
+                onCheckedChange = { DataPreferences.showRetrospectiveAllYear = it }
+            )
+        }
         SettingsGroup(title = stringResource(R.string.dynamic_thumbnails)) {
             var selectingThumbnailSize by remember { mutableStateOf(false) }
             SettingsEntry(

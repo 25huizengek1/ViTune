@@ -2,6 +2,7 @@ package app.vitune.android.ui.screens.home
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.gestures.snapping.rememberSnapFlingBehavior
@@ -29,6 +30,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.text.BasicText
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ElevatedCard
 import androidx.compose.runtime.Composable
@@ -39,6 +41,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.res.stringResource
@@ -48,6 +51,7 @@ import androidx.compose.ui.unit.times
 import app.vitune.android.LocalPlayerAwareWindowInsets
 import app.vitune.android.LocalPlayerServiceBinder
 import app.vitune.android.R
+import app.vitune.android.preferences.DataPreferences
 import app.vitune.android.ui.components.FadingRow
 import app.vitune.android.ui.components.LocalMenuState
 import app.vitune.android.ui.components.ShimmerHost
@@ -76,6 +80,9 @@ import app.vitune.core.ui.utils.isLandscape
 import app.vitune.providers.innertube.Innertube
 import app.vitune.providers.innertube.models.NavigationEndpoint
 import app.vitune.providers.innertube.requests.discoverPage
+import kotlinx.datetime.Clock
+import kotlinx.datetime.TimeZone
+import kotlinx.datetime.toLocalDateTime
 
 // TODO: a lot of duplicate code all around the codebase, especially for discover
 
@@ -88,6 +95,7 @@ fun HomeDiscovery(
     onSearchClick: () -> Unit,
     onMoreMoodsClick: () -> Unit,
     onMoreAlbumsClick: () -> Unit,
+    onRetrospectiveClick: () -> Unit,
     onPlaylistClick: (browseId: String) -> Unit
 ) {
     val (colorPalette, typography) = LocalAppearance.current
@@ -107,6 +115,9 @@ fun HomeDiscovery(
         .padding(top = 24.dp, bottom = 8.dp)
         .padding(endPaddingValues)
 
+    val isDecember = Clock.System.now().toLocalDateTime(TimeZone.currentSystemDefault()).month.value == 12;
+    val showRetrospective = isDecember || DataPreferences.showRetrospectiveAllYear
+
     var discoverPage by persist<Result<Innertube.DiscoverPage>>("home/discovery")
 
     LaunchedEffect(Unit) {
@@ -122,6 +133,7 @@ fun HomeDiscovery(
             }
         )
         val itemWidth = maxWidth * widthFactor
+        val fullWidth = maxWidth
 
         Column(
             modifier = Modifier
@@ -140,6 +152,16 @@ fun HomeDiscovery(
             )
 
             discoverPage?.getOrNull()?.let { page ->
+                if(showRetrospective){
+                    RetrospectiveButton(
+                        title = "${Clock.System.now().toLocalDateTime(TimeZone.currentSystemDefault()).year} ${stringResource(R.string.retrospective)}",
+                        onClick = { onRetrospectiveClick() },
+                        modifier = Modifier
+                            .width(fullWidth)
+                            .padding(4.dp)
+                    )
+                }
+
                 if (page.moods.isNotEmpty()) {
                     Row(
                         modifier = Modifier.fillMaxWidth(),
@@ -352,6 +374,55 @@ fun HomeDiscovery(
             icon = R.drawable.search,
             onClick = onSearchClick
         )
+    }
+}
+
+@Composable
+fun RetrospectiveButton(
+    title: String,
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier
+) {
+    val typography = LocalAppearance.current.typography
+    val thumbnailShape = LocalAppearance.current.thumbnailShape
+
+    val color by remember { derivedStateOf { Color.Transparent } }
+
+    val rainbowBrush = remember {
+        Brush.linearGradient(
+            colors = listOf(
+                Color(0xFFFF0000),
+                Color(0xFFFF8700),
+                Color(0xFFFFD300),
+                Color(0xFFDEFF0A),
+                Color(0xFFA1FF0A),
+                Color(0xFF0AFF99),
+                Color(0xFF0AEFFF),
+                Color(0xFF147DF5),
+                Color(0xFF580AFF),
+                Color(0xFFBE0AFF)
+            )
+        )
+    }
+
+    Card(
+        modifier = modifier
+            .height(Dimensions.items.moodHeight)
+            .border(1.dp, rainbowBrush, thumbnailShape),
+        shape = thumbnailShape,
+        colors = CardDefaults.elevatedCardColors(containerColor = color)
+    ) {
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .clickable { onClick() },
+            contentAlignment = Alignment.Center
+        ) {
+            BasicText(
+                text = title,
+                style = typography.xs.semiBold
+            )
+        }
     }
 }
 

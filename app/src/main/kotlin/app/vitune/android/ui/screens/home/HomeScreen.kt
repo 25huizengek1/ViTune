@@ -17,6 +17,7 @@ import app.vitune.android.ui.screens.localplaylist.LocalPlaylistScreen
 import app.vitune.android.ui.screens.mood.MoodScreen
 import app.vitune.android.ui.screens.mood.MoreAlbumsScreen
 import app.vitune.android.ui.screens.mood.MoreMoodsScreen
+import app.vitune.android.ui.screens.mood.RetrospectiveScreen
 import app.vitune.android.ui.screens.moodRoute
 import app.vitune.android.ui.screens.pipedPlaylistRoute
 import app.vitune.android.ui.screens.playlistRoute
@@ -28,6 +29,7 @@ import app.vitune.compose.routing.RouteHandler
 
 private val moreMoodsRoute = Route0("moreMoodsRoute")
 private val moreAlbumsRoute = Route0("moreAlbumsRoute")
+private val retrospectiveRoute = Route0("retrospectiveRoute")
 
 @Route
 @Composable
@@ -57,6 +59,10 @@ fun HomeScreen() {
 
         moreAlbumsRoute {
             MoreAlbumsScreen()
+        }
+
+        retrospectiveRoute {
+            RetrospectiveScreen()
         }
 
         Content {
@@ -99,6 +105,7 @@ fun HomeScreen() {
                             onSearchClick = onSearchClick,
                             onMoreMoodsClick = { moreMoodsRoute() },
                             onMoreAlbumsClick = { moreAlbumsRoute() },
+                            onRetrospectiveClick = { retrospectiveRoute() },
                             onPlaylistClick = { playlistRoute(it, null, null, true) }
                         )
 

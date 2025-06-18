@@ -420,6 +420,10 @@
 
     <string name="tabs">Tabs</string>
 
+    <string name="retrospective">Retrospective</string>
+    <string name="enable_retrospective_all_time">Enable retrospective all year</string>
+    <string name="enable_retrospective_all_time_description">Shows the retrospective throughout the whole year</string>
+
     <plurals name="format_reset_blacklist_description">
         <item quantity="one">Remove %1$s song from the blacklist</item>
         <item quantity="other">Remove all %1$s songs from the blacklist</item>

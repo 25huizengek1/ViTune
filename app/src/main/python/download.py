@@ -4,7 +4,12 @@ import json
 
 def download(video_id):
     opts = {
-        'format': 'bestaudio'
+        'format': 'bestaudio',
+        'extractor_args': {
+            'youtube': {
+                'player-client':['default', 'tv_simply']
+            }
+        }
     }
 
     return json.dumps(yt_dlp.YoutubeDL(opts).extract_info(video_id, download=False), indent=4)
